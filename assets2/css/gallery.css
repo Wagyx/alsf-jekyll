@@ -1,0 +1,44 @@
+video {
+    width:100%;
+}
+
+.list-item {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em;
+    box-shadow: 1px 2px 4px 0px rgb(0, 0, 0);
+    width: 360px;
+}
+@media screen and (max-width: 360px) {
+    .list-item {
+        width: 100%;
+    }
+}
+.list-item .word {
+    /*text color*/
+    margin: 0.5em;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+p#wordName {
+    /*text color*/
+    margin: 0.5em;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+p#signName {
+    /*text color*/
+    margin: 0.5em;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.list-item .link a {
+    color: #000000;
+}
+

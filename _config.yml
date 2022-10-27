@@ -1,0 +1,5 @@
+baseurl: /alsf-jekyll
+url: https://wagyx.github.io/
+
+plugins:
+  - jekyll-sitemap

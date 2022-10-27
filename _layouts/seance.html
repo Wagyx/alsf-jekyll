@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>{{page.title}}</title>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/assets2/css/gallery.css" />
+	<script type="text/javascript" src="{{site.baseurl}}/assets2/js/database.js"></script>
+	<script type="text/javascript" src="{{site.baseurl}}/assets2/js/display.js"> </script>
+</head>
+
+<body class="no-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header Wrapper -->
+		<div id="header-wrapper">
+			<div class="container">
+
+				<!-- Header -->
+				<header id="header">
+					<div class="inner">
+
+						<!-- Logo -->
+						<h1><a href="#" id="logo">{{page.title}}</a></h1>
+						
+						<!-- Nav -->
+						{% include nav.html %}
+						
+					</div>
+				</header>
+
+			</div>
+		</div>
+
+		<!-- Main Wrapper -->
+		<div id="main-wrapper">
+			<div class="wrapper style2">
+				<div class="inner">
+					<div class="container">
+						<div id="content">
+							<!-- Content -->
+							<article>
+								<h1>{{page.header}}</h1>
+								<div id="galleryContent"></div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Wrapper -->
+		{% include footer.html %}
+
+	</div>
+
+	<!-- Scripts -->
+	{{content}}
+
+	{% include scripts.html %}
+
+
+</body>
+
+</html>
