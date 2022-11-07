@@ -663,8 +663,8 @@ VOCABULARY = {
         name: "père",
         url: "https://www.elix-lsf.fr/IMG/mp4/pere_nm_1_1.mp4"
     },
-    "soeur ": {
-        name: "soeur ",
+    "soeur": {
+        name: "soeur",
         url: "https://www.elix-lsf.fr/IMG/mp4/soeur_nf_2_1.mp4"
     },
     "frère": {
@@ -744,6 +744,19 @@ VOCABULARY = {
         url: "https://www.elix-lsf.fr/IMG/mp4/boucle_adj_2_6.mp4"
     },
 
+    "grands-parents":{name:"grands-parents",url:"https://www.elix-lsf.fr/IMG/mp4/grands-parents_nmp_1_1.mp4"},
+    "parents":{name:"parents",url:"https://www.elix-lsf.fr/IMG/mp4/parents_nmp_3_1.mp4"},
+    "enfants":{name:"enfants",url:"https://www.elix-lsf.fr/IMG/mp4/enfant-2.mp4"},
+    "célibataire":{name:"célibataire",url:"https://www.elix-lsf.fr/IMG/mp4/celibataire_adj_1_1.mp4"},
+    "beau-fils":{name:"beau-fils",url:"https://www.elix-lsf.fr/IMG/mp4/beau-fils_nm_1_1.mp4"},
+    "belle-fille":{name:"belle-fille",url:"https://www.elix-lsf.fr/IMG/mp4/belle-fille_nf_1_6.mp4"},
+    "beau-père":{name:"beau-père",url:"https://www.elix-lsf.fr/IMG/mp4/00260-2.mp4"},
+    "belle-mère":{name:"belle-mère",url:"https://www.elix-lsf.fr/IMG/mp4/00249-2.mp4"},
+    "arrière grands parents":{name:"Arrière grands parents",url:"https://www.elix-lsf.fr/IMG/mp4/arriere-grand-parent_nm_1_6.mp4"},
+    "gay":{name:"gay",url:"https://www.elix-lsf.fr/IMG/mp4/00102-4.mp4"},
+    "lesbienne":{name:"lesbienne",url:"https://www.elix-lsf.fr/IMG/mp4/00104-2.mp4"},
+    "amant":{name:"amant",url:"https://www.elix-lsf.fr/IMG/mp4/amant_nm_1_1.mp4"},
+
 
     "séparer": {
         name: "séparer",
@@ -769,7 +782,7 @@ VOCABULARY = {
         url: ""
     },
     "demi-soeur ": {
-        name: "demi-soeur ",
+        name: "demi-soeur",
         url: ""
     },
     "faire de la corde à sauter": {
@@ -1009,6 +1022,9 @@ LESSONS = {
         name: "Famille",
         words: [
             "famille",
+            "grands-parents",
+            "parents",
+            "enfants",
             "grand-mère",
             "grand-père",
             "mère",
@@ -1017,6 +1033,7 @@ LESSONS = {
             "frère",
             "fille",
             "fils",
+            "bébé",
             "petite-fille",
             "petit-fils",
             "nièce",
@@ -1025,8 +1042,18 @@ LESSONS = {
             "cousin",
             "tante",
             "oncle",
+            "gendre",
+            "beau-fils",
+            "belle-fille",
+            "beau-père",
+            "belle-mère",
+            "arrière grands parents",
+            "demi-soeur",
+            "demi-frère",
+            "amour",
             "couple",
             "petit(e) ami(e)",
+            "célibataire",
             "fiancer",
             "marier",
             "pacser",
@@ -1034,16 +1061,18 @@ LESSONS = {
             "défiancer",
             "divorce",
             "ex-",
-            "demi-soeur",
-            "demi-frère",
+            "ami",
+            "gay",
+            "lesbienne",
+            "amant",
+            "maitresse ",
             "pêche",
             "montagne",
             "campagne",
             "mer",
             "bateau",
             "camping",
-            "neige",
-            "amour",
+            "neige"
         ]
     },
     // "Seance ": {
