@@ -643,18 +643,129 @@ VOCABULARY = {
         name: "caméscope/caméra",
         url: "https://www.elix-lsf.fr/IMG/mp4/camescope_nm_1_1.mp4"
     },
-    // "":{name:"",url:""},
-    // "":{name:"",url:""},
-    // bouclé
-    // tresses
-    // ondulé
-    // court
-    // manga
-    // Bande dessinée
-    // Johnny Hallyday
-    // canada
+    "famille": {
+        name: "famille",
+        url: "https://www.elix-lsf.fr/IMG/mp4/famille_nf_1_1.mp4"
+    },
+    "grand-mère": {
+        name: "grand-mère",
+        url: "https://www.elix-lsf.fr/IMG/mp4/grand_mere.mp4"
+    },
+    "grand-père": {
+        name: "grand-père",
+        url: "https://www.elix-lsf.fr/IMG/mp4/grand-pere_nm_1_6.mp4"
+    },
+    "mère": {
+        name: "mère",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00253-2.mp4"
+    },
+    "père": {
+        name: "père",
+        url: "https://www.elix-lsf.fr/IMG/mp4/pere_nm_1_1.mp4"
+    },
+    "sœur ": {
+        name: "sœur ",
+        url: "https://www.elix-lsf.fr/IMG/mp4/soeur_nf_2_1.mp4"
+    },
+    "frère": {
+        name: "frère",
+        url: "https://www.elix-lsf.fr/IMG/mp4/frere_nm_1_1.mp4"
+    },
+    "fils": {
+        name: "fils",
+        url: "https://www.elix-lsf.fr/IMG/mp4/fils_nm_1_1.mp4"
+    },
+    "petit-fils": {
+        name: "petit-fils",
+        url: "https://www.elix-lsf.fr/IMG/mp4/cousin_nm_2_1.mp4"
+    },
+    "neveu": {
+        name: "neveu",
+        url: "https://www.elix-lsf.fr/IMG/mp4/neveu_nm_1_1.mp4"
+    },
+    "cousin": {
+        name: "cousin",
+        url: "https://www.elix-lsf.fr/IMG/mp4/cousin_nm_2_1.mp4"
+    },
+    "tante": {
+        name: "tante",
+        url: "https://www.elix-lsf.fr/IMG/mp4/tante_nf_1_1.mp4"
+    },
+    "oncle": {
+        name: "oncle",
+        url: "https://www.elix-lsf.fr/IMG/mp4/oncle_nm_1_2.mp4"
+    },
+    "couple": {
+        name: "couple",
+        url: "https://www.elix-lsf.fr/IMG/mp4/couple_nm_1_1.mp4"
+    },
+    "petit(e) ami(e)": {
+        name: "petit(e) ami(e",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00265.mp4"
+    },
+    "ami": {
+        name: "ami",
+        url: "https://www.elix-lsf.fr/IMG/mp4/ami.mp4"
+    },
+    "fiancer": {
+        name: "fiancer",
+        url: "https://www.elix-lsf.fr/IMG/mp4/fiancer_v_1_1.mp4"
+    },
+    "divorce": {
+        name: "divorce",
+        url: "https://www.elix-lsf.fr/IMG/mp4/divorce_nm_1_2.mp4"
+    },
+    "demi-frère": {
+        name: "demi-frère",
+        url: "https://www.elix-lsf.fr/IMG/mp4/00245-2.mp4"
+    },
+    "montagne": {
+        name: "montagne",
+        url: "https://www.elix-lsf.fr/IMG/mp4/montagne_nf_1_2.mp4"
+    },
+    "campagne": {
+        name: "campagne",
+        url: "https://www.elix-lsf.fr/IMG/mp4/campagne_nf_1_1.mp4"
+    },
+    "camping": {
+        name: "camping",
+        url: "https://www.elix-lsf.fr/IMG/mp4/camping_nm_1_1.mp4"
+    },
+    "marier": {
+        name: "marier",
+        url: "https://www.elix-lsf.fr/IMG/mp4/marier_v_1_1.mp4"
+    },
+    "amour": {
+        name: "amour",
+        url: "https://www.elix-lsf.fr/IMG/mp4/amour_nm_1_1.mp4"
+    },
+    "séparé": {
+        name: "séparé",
+        url: ""
+    },
+    "défiancé": {
+        name: "défiancé",
+        url: ""
+    },
+    "pacser": {
+        name: "pacsé",
+        url: ""
+    },
+    "neige": {
+        name: "neige",
+        url: ""
+    },
 
 
+
+    "ex-": {
+        name: "ex-",
+        url: ""
+    },
+    "demi-sœur ": {
+        name: "demi-sœur ",
+        url: ""
+    },
     "faire de la corde à sauter": {
         name: "faire de la corde à sauter",
         url: ""
@@ -691,6 +802,19 @@ VOCABULARY = {
         name: "entendant",
         url: ""
     }
+
+    // "":{name:"",url:""},
+    // "":{name:"",url:""},
+    // bouclé
+    // tresses
+    // ondulé
+    // court
+    // manga
+    // Bande dessinée
+    // Johnny Hallyday
+    // canada
+
+
 };
 
 
@@ -877,7 +1001,48 @@ LESSONS = {
             "prince",
             "caméscope/caméra"
         ]
-    }
+    },
+    "Seance 6": {
+        name: "Famille",
+        words: [
+            "famille",
+            "grand-mère",
+            "grand-père",
+            "mère",
+            "père",
+            "sœur",
+            "frère",
+            "fille",
+            "fils",
+            "petite-fille",
+            "petit-fils",
+            "nièce",
+            "neveu",
+            "cousine",
+            "cousin",
+            "tante",
+            "oncle",
+            "couple",
+            "petit(e) ami(e)",
+            "fiancer",
+            "marier",
+            "pacser",
+            "séparer",
+            "défiancer",
+            "divorce",
+            "ex-",
+            "demi-sœur",
+            "demi-frère",
+            "pêche",
+            "montagne",
+            "campagne",
+            "mer",
+            "bateau",
+            "camping",
+            "neige",
+            "amour",
+        ]
+    },
     // "Seance ": {
     //     name: "",
     //     words: [
