@@ -243,9 +243,9 @@ VOCABULARY = {
         name: "fleur",
         url: "https://www.elix-lsf.fr/IMG/mp4/fleur_nf_1_1.mp4"
     },
-    "apprécier": {
-        name: "apprécier",
-        url: "https://www.elix-lsf.fr/IMG/mp4/aimer_v_1_6-2.mp4"
+    "aimer": {
+        name: "aimer",
+        url: "https://www.elix-lsf.fr/IMG/mp4/aimer_v_2_6.mp4"
     },
     "détester": {
         name: "détester",
@@ -301,7 +301,7 @@ VOCABULARY = {
     },
     "chat": {
         name: "chat",
-        url: "https://www.elix-lsf.fr/IMG/mp4/chat_nm_1_6.mp4"
+        url: "https://www.elix-lsf.fr/IMG/mp4/chat-2.mp4"
     },
     "homme": {
         name: "homme",
@@ -441,7 +441,7 @@ VOCABULARY = {
     },
     "interdit": {
         name: "interdit",
-        url: "https://www.elix-lsf.fr/IMG/mp4/interdit_adj_1_6.mp4"
+        url: "https://www.elix-lsf.fr/IMG/mp4/interdit.mp4"
     },
     "hache": {
         name: "hache",
@@ -449,7 +449,7 @@ VOCABULARY = {
     },
     "maison": {
         name: "maison",
-        url: "https://www.elix-lsf.fr/IMG/mp4/maison_nf_1_6.mp4"
+        url: "https://www.elix-lsf.fr/IMG/mp4/maison-2.mp4"
     },
     "sous-titre": {
         name: "sous-titre",
@@ -663,8 +663,8 @@ VOCABULARY = {
         name: "père",
         url: "https://www.elix-lsf.fr/IMG/mp4/pere_nm_1_1.mp4"
     },
-    "sœur ": {
-        name: "sœur ",
+    "soeur ": {
+        name: "soeur ",
         url: "https://www.elix-lsf.fr/IMG/mp4/soeur_nf_2_1.mp4"
     },
     "frère": {
@@ -700,7 +700,7 @@ VOCABULARY = {
         url: "https://www.elix-lsf.fr/IMG/mp4/couple_nm_1_1.mp4"
     },
     "petit(e) ami(e)": {
-        name: "petit(e) ami(e",
+        name: "petit(e) ami(e)",
         url: "https://www.elix-lsf.fr/IMG/mp4/00265.mp4"
     },
     "ami": {
@@ -739,16 +739,22 @@ VOCABULARY = {
         name: "amour",
         url: "https://www.elix-lsf.fr/IMG/mp4/amour_nm_1_1.mp4"
     },
-    "séparé": {
-        name: "séparé",
+    "cheveux bouclés": {
+        name: "cheveux bouclés",
+        url: "https://www.elix-lsf.fr/IMG/mp4/boucle_adj_2_6.mp4"
+    },
+
+
+    "séparer": {
+        name: "séparer",
         url: ""
     },
-    "défiancé": {
-        name: "défiancé",
+    "défiancer": {
+        name: "défiancer",
         url: ""
     },
     "pacser": {
-        name: "pacsé",
+        name: "pacser",
         url: ""
     },
     "neige": {
@@ -762,8 +768,8 @@ VOCABULARY = {
         name: "ex-",
         url: ""
     },
-    "demi-sœur ": {
-        name: "demi-sœur ",
+    "demi-soeur ": {
+        name: "demi-soeur ",
         url: ""
     },
     "faire de la corde à sauter": {
@@ -792,10 +798,6 @@ VOCABULARY = {
     },
     "cow-boy": {
         name: "cow-boy",
-        url: ""
-    },
-    "aimer": {
-        name: "aimer",
         url: ""
     },
     "entendant": {
@@ -953,6 +955,7 @@ LESSONS = {
             "gros",
             "visage",
             "cheveu",
+            "cheveux bouclés",
             "bouche",
             "nez",
             "oreille",
@@ -1010,7 +1013,7 @@ LESSONS = {
             "grand-père",
             "mère",
             "père",
-            "sœur",
+            "soeur",
             "frère",
             "fille",
             "fils",
@@ -1031,7 +1034,7 @@ LESSONS = {
             "défiancer",
             "divorce",
             "ex-",
-            "demi-sœur",
+            "demi-soeur",
             "demi-frère",
             "pêche",
             "montagne",
