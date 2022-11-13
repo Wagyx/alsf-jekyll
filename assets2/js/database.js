@@ -1,1080 +1,616 @@
 VOCABULARY = {
-    "bonjour": {
-        name: "bonjour",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bonjour-3.mp4"
-    },
-    "au revoir": {
-        name: "au revoir",
-        url: "https://www.elix-lsf.fr/IMG/mp4/aurevoir_nm_1_1.mp4"
-    },
-    "comment ça va ?": {
-        name: "comment ça va ?",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cava_int_10_6-3.mp4"
-    },
-    "être en forme": {
-        name: "être en forme",
-        url: "https://www.elix-lsf.fr/IMG/mp4/enforme_adj_1_2.mp4"
-    },
-    "oui": {
-        name: "oui",
-        url: "https://www.elix-lsf.fr/IMG/mp4/oui_adv_1_1.mp4"
-    },
-    "non": {
-        name: "non",
-        url: "https://www.elix-lsf.fr/IMG/mp4/non_adv_1_1.mp4"
-    },
-    "pause": {
-        name: "pause",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pause.mp4"
-    },
-    "café": {
-        name: "café",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cafe_nm_1_6.mp4"
-    },
-    "thé": {
-        name: "thé",
-        url: "https://www.elix-lsf.fr/IMG/mp4/the.mp4"
-    },
-    "être en retard": {
-        name: "être en retard",
-        url: "https://www.elix-lsf.fr/IMG/mp4/retard2.mp4"
-    },
-    "être fatigué": {
-        name: "être fatigué",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fatigue_adj_1_6.mp4"
-    },
-    "être malade": {
-        name: "être malade",
-        url: "https://www.elix-lsf.fr/IMG/mp4/malade-3.mp4"
-    },
-    "s'il vous plaît": {
-        name: "s'il vous plaît",
-        url: "https://www.elix-lsf.fr/IMG/mp4/02252.mp4"
-    },
-    "pardon": {
-        name: "pardon",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pardon_nm_1_1.mp4"
-    },
-    "merci": {
-        name: "merci",
-        url: "https://www.elix-lsf.fr/IMG/mp4/merci_nm_1_1-2.mp4"
-    },
-    "toilettes": {
-        name: "toilettes",
-        url: "https://www.elix-lsf.fr/IMG/mp4/toilettes_n_1_6.mp4"
-    },
-    "sourd": {
-        name: "sourd",
-        url: "https://www.elix-lsf.fr/IMG/mp4/sourd.mp4"
-    },
-    "boisson": {
-        name: "boisson",
-        url: "https://www.elix-lsf.fr/IMG/mp4/boisson_nf_1_1.mp4"
-    },
-    "couleur": {
-        name: "couleur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/couleur.mp4"
-    },
-    "bleu": {
-        name: "bleu",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bleu_nm_1_2.mp4"
-    },
-    "rouge": {
-        name: "rouge",
-        url: "https://www.elix-lsf.fr/IMG/mp4/rouge.mp4"
-    },
-    "vert": {
-        name: "vert",
-        url: "https://www.elix-lsf.fr/IMG/mp4/vert.mp4"
-    },
-    "jaune": {
-        name: "jaune",
-        url: "https://www.elix-lsf.fr/IMG/mp4/jaune_adj_1_1.mp4"
-    },
-    "gris": {
-        name: "gris",
-        url: "https://www.elix-lsf.fr/IMG/mp4/gris_nm_1_2.mp4"
-    },
-    "rose": {
-        name: "rose",
-        url: "https://www.elix-lsf.fr/IMG/mp4/rose_adj_2_1.mp4"
-    },
-    "noir": {
-        name: "noir",
-        url: "https://www.elix-lsf.fr/IMG/mp4/01488.mp4"
-    },
-    "blanc": {
-        name: "blanc",
-        url: "https://www.elix-lsf.fr/IMG/mp4/blanc_adj_1_1.mp4"
-    },
-    "violet": {
-        name: "violet",
-        url: "https://www.elix-lsf.fr/IMG/mp4/01478.mp4"
-    },
-    "marron": {
-        name: "marron",
-        url: "https://www.elix-lsf.fr/IMG/mp4/marron_adjetn_10_1.mp4"
-    },
-    "orange": {
-        name: "orange",
-        url: "https://www.elix-lsf.fr/IMG/mp4/orange_adj_1_2.mp4"
-    },
-    "or (métal)": {
-        name: "or (métal)",
-        url: "https://www.elix-lsf.fr/IMG/mp4/or_nm_1_1.mp4"
-    },
-    "argent (métal)": {
-        name: "argent (métal)",
-        url: "https://www.elix-lsf.fr/IMG/mp4/argent_nm_1_1.mp4"
-    },
-    "clair": {
-        name: "clair",
-        url: "https://www.elix-lsf.fr/IMG/mp4/clair_adj_1_1.mp4"
-    },
-    "foncé": {
-        name: "foncé",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fonce_adj_1_1.mp4"
-    },
-    "vif": {
-        name: "vif",
-        url: "https://www.elix-lsf.fr/IMG/mp4/vif_adj_1_1.mp4"
-    },
-    "transparent": {
-        name: "transparent",
-        url: "https://www.elix-lsf.fr/IMG/mp4/transparent_adj_1_2.mp4"
-    },
-    "manger": {
-        name: "manger",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00280.mp4"
-    },
-    "boire": {
-        name: "boire",
-        url: "https://www.elix-lsf.fr/IMG/mp4/boire-2.mp4"
-    },
-    "voiture": {
-        name: "voiture",
-        url: "https://www.elix-lsf.fr/IMG/mp4/voiture_nf_1_6.mp4"
-    },
-    "eau": {
-        name: "eau",
-        url: "https://www.elix-lsf.fr/IMG/mp4/eau-2.mp4"
-    },
-    "grand": {
-        name: "grand",
-        url: "https://www.elix-lsf.fr/IMG/mp4/grand_adj_1_1.mp4"
-    },
-    "moto": {
-        name: "moto",
-        url: "https://www.elix-lsf.fr/IMG/mp4/moto_nf_1_1.mp4"
-    },
-    "vélo": {
-        name: "vélo",
-        url: "https://www.elix-lsf.fr/IMG/mp4/velo-2.mp4"
-    },
-    "aspirateur": {
-        name: "aspirateur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/aspirateur.mp4"
-    },
-    "arbre": {
-        name: "arbre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/arbre-3.mp4"
-    },
-    "bébé": {
-        name: "bébé",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bebe_nm_1_2.mp4"
-    },
-    "oeil": {
-        name: "oeil",
-        url: "https://www.elix-lsf.fr/IMG/mp4/oeil_nm_1_1.mp4"
-    },
-    "bouche": {
-        name: "bouche",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bouche_nf_1_1.mp4"
-    },
-    "nez": {
-        name: "nez",
-        url: "https://www.elix-lsf.fr/IMG/mp4/nez_nm_1_1.mp4"
-    },
-    "oreille": {
-        name: "oreille",
-        url: "https://www.elix-lsf.fr/IMG/mp4/oreille_nf_1_1.mp4"
-    },
-    "cheveu": {
-        name: "cheveu",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cheveu_nm_1_1.mp4"
-    },
-    "lampe de poche": {
-        name: "lampe de poche",
-        url: "https://www.elix-lsf.fr/IMG/mp4/lampedepoche_nf_10_1.mp4"
-    },
-    "bouteille": {
-        name: "bouteille",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bouteille_nf_1_1.mp4"
-    },
-    "parapluie": {
-        name: "parapluie",
-        url: "https://www.elix-lsf.fr/IMG/mp4/parapluie_nm_1_1.mp4"
-    },
-    "peur": {
-        name: "peur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/peur.mp4"
-    },
-    "faim": {
-        name: "faim",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00167.mp4"
-    },
-    "soif": {
-        name: "soif",
-        url: "https://www.elix-lsf.fr/IMG/mp4/soif_nf_1_1.mp4"
-    },
-    "école": {
-        name: "école",
-        url: "https://www.elix-lsf.fr/IMG/mp4/ecole-4.mp4"
-    },
-    "sac à dos": {
-        name: "sac à dos",
-        url: "https://www.elix-lsf.fr/IMG/mp4/sacados_nm_1_1.mp4"
-    },
-    "pêcher (à la ligne)": {
-        name: "pêcher (à la ligne)",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pecher_1_2.mp4"
-    },
-    "fleur": {
-        name: "fleur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fleur_nf_1_1.mp4"
-    },
-    "aimer": {
-        name: "aimer",
-        url: "https://www.elix-lsf.fr/IMG/mp4/aimer_v_2_6.mp4"
-    },
-    "détester": {
-        name: "détester",
-        url: "https://www.elix-lsf.fr/IMG/mp4/detester_v_1_1.mp4"
-    },
-    "ne pas aimer": {
-        name: "ne pas aimer",
-        url: "https://www.elix-lsf.fr/IMG/mp4/nepasaimer_v_10_6.mp4"
-    },
-    "réfrigérateur": {
-        name: "réfrigérateur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/refrigerateur_nm_1_1.mp4"
-    },
-    "congélateur": {
-        name: "congélateur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/congelateur_nm_1_1.mp4"
-    },
-    "table": {
-        name: "table",
-        url: "https://www.elix-lsf.fr/IMG/mp4/table_nf_1_1.mp4"
-    },
-    "siège": {
-        name: "siège",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00018.mp4"
-    },
-    "livre": {
-        name: "livre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/livre.mp4"
-    },
-    "monnaie/argent": {
-        name: "monnaie/argent",
-        url: "https://www.elix-lsf.fr/IMG/mp4/argent-2.mp4"
-    },
-    "indien d'Amérique": {
-        name: "indien d'Amérique",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00248.mp4"
-    },
-    "vache": {
-        name: "vache",
-        url: "https://www.elix-lsf.fr/IMG/mp4/vache_nf_1_6.mp4"
-    },
-    "taureau": {
-        name: "taureau",
-        url: "https://www.elix-lsf.fr/IMG/mp4/taureau_nm_1_1.mp4"
-    },
-    "éléphant": {
-        name: "éléphant",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00161.mp4"
-    },
-    "boiter": {
-        name: "boiter",
-        url: "https://www.elix-lsf.fr/IMG/mp4/boiter_v_1_1.mp4"
-    },
-    "chat": {
-        name: "chat",
-        url: "https://www.elix-lsf.fr/IMG/mp4/chat-2.mp4"
-    },
-    "homme": {
-        name: "homme",
-        url: "https://www.elix-lsf.fr/IMG/mp4/homme-2.mp4"
-    },
-    "femme": {
-        name: "femme",
-        url: "https://www.elix-lsf.fr/IMG/mp4/femme-2.mp4"
-    },
-    "fille": {
-        name: "fille",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fille.mp4"
-    },
-    "garçon": {
-        name: "garçon",
-        url: "https://www.elix-lsf.fr/IMG/mp4/garcon.mp4"
-    },
-    "jeune": {
-        name: "jeune",
-        url: "https://www.elix-lsf.fr/IMG/mp4/jeune_adj_1_1.mp4"
-    },
-    "vieux": {
-        name: "vieux",
-        url: "https://www.elix-lsf.fr/IMG/mp4/vieux_adj_2_1.mp4"
-    },
-    "mince": {
-        name: "mince",
-        url: "https://www.elix-lsf.fr/IMG/mp4/mince_adj_1_1.mp4"
-    },
-    "gros": {
-        name: "gros",
-        url: "https://www.elix-lsf.fr/IMG/mp4/gros_adj_1_1.mp4"
-    },
-    "visage": {
-        name: "visage",
-        url: "https://www.elix-lsf.fr/IMG/mp4/visage_nm_1_1.mp4"
-    },
-    "langue": {
-        name: "langue",
-        url: "https://www.elix-lsf.fr/IMG/mp4/langue_nf_2_1.mp4"
-    },
-    "sourcil": {
-        name: "sourcil",
-        url: "https://www.elix-lsf.fr/IMG/mp4/soucils.mp4"
-    },
-    "cils": {
-        name: "cils",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cil_nm_1_1.mp4"
-    },
-    "accueil": {
-        name: "accueil",
-        url: "https://www.elix-lsf.fr/IMG/mp4/accueil_nm_2_1.mp4"
-    },
-    "scie": {
-        name: "scie",
-        url: "https://www.elix-lsf.fr/IMG/mp4/scie_nf_1_1.mp4"
-    },
-    "sucette": {
-        name: "sucette",
-        url: "https://www.elix-lsf.fr/IMG/mp4/sucette_nf_1_1.mp4"
-    },
-    "glace": {
-        name: "glace",
-        url: "https://www.elix-lsf.fr/IMG/mp4/glace_nf_2_1.mp4"
-    },
-    "loupe": {
-        name: "loupe",
-        url: "https://www.elix-lsf.fr/IMG/mp4/loupe_nf_2_1.mp4"
-    },
-    "bowling": {
-        name: "bowling",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bowling_nm_1_1.mp4"
-    },
-    "lunettes": {
-        name: "lunettes",
-        url: "https://www.elix-lsf.fr/IMG/mp4/lunettes_nfp_1_1.mp4"
-    },
-    "scooter": {
-        name: "scooter",
-        url: "https://www.elix-lsf.fr/IMG/mp4/scooter_nm_1_6.mp4"
-    },
-    "question": {
-        name: "question",
-        url: "https://www.elix-lsf.fr/IMG/mp4/question_nf_1_1.mp4"
-    },
-    "corps": {
-        name: "corps",
-        url: "https://www.elix-lsf.fr/IMG/mp4/corps_nm_1_1.mp4"
-    },
-    "enceinte": {
-        name: "enceinte",
-        url: "https://www.elix-lsf.fr/IMG/mp4/enceinte_adj_1_1.mp4"
-    },
-    "signe": {
-        name: "signe",
-        url: "https://www.elix-lsf.fr/IMG/mp4/signe_nm_2_2.mp4"
-    },
-    "lèvre": {
-        name: "lèvre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/levre_nf_1_1.mp4"
-    },
-    "avant": {
-        name: "avant",
-        url: "https://www.elix-lsf.fr/IMG/mp4/avant_adv_1_1_-_copie.mp4"
-    },
-    "après": {
-        name: "après",
-        url: "https://www.elix-lsf.fr/IMG/mp4/apres_adv_1_1.mp4"
-    },
-    "partir": {
-        name: "partir",
-        url: "https://www.elix-lsf.fr/IMG/mp4/partir_v_3_6.mp4"
-    },
-    "compris": {
-        name: "compris",
-        url: "https://www.elix-lsf.fr/IMG/mp4/compris_adj_2_1.mp4"
-    },
-    "forme": {
-        name: "forme",
-        url: "https://www.elix-lsf.fr/IMG/mp4/forme_nf_1_1.mp4"
-    },
-    "beau": {
-        name: "beau",
-        url: "https://www.elix-lsf.fr/IMG/mp4/beau.mp4"
-    },
-    "moche": {
-        name: "moche",
-        url: "https://www.elix-lsf.fr/IMG/mp4/moche.mp4"
-    },
-    "pareil": {
-        name: "pareil",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pareil_adj_1_1.mp4"
-    },
-    "différent": {
-        name: "différent",
-        url: "https://www.elix-lsf.fr/IMG/mp4/different_adj_1_2.mp4"
-    },
-    "interdit": {
-        name: "interdit",
-        url: "https://www.elix-lsf.fr/IMG/mp4/interdit.mp4"
-    },
-    "hache": {
-        name: "hache",
-        url: "https://www.elix-lsf.fr/IMG/mp4/hache_nf_1_1.mp4"
-    },
-    "maison": {
-        name: "maison",
-        url: "https://www.elix-lsf.fr/IMG/mp4/maison-2.mp4"
-    },
-    "sous-titre": {
-        name: "sous-titre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/sous-titrer_v_1_6.mp4"
-    },
-    "télévision": {
-        name: "télévision",
-        url: "https://www.elix-lsf.fr/IMG/mp4/television_nf_1_6.mp4"
-    },
-    "traducteur": {
-        name: "traducteur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/traducteur_nm_1_6.mp4"
-    },
-    "peindre": {
-        name: "peindre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/peindre_v_2_1.mp4"
-    },
-    "affiche": {
-        name: "affiche",
-        url: "https://www.elix-lsf.fr/IMG/mp4/affiche_nf_1_1.mp4"
-    },
-    "dessiner": {
-        name: "dessiner",
-        url: "https://www.elix-lsf.fr/IMG/mp4/dessiner_v_1_1.mp4"
-    },
-    "écrire": {
-        name: "écrire",
-        url: "https://www.elix-lsf.fr/IMG/mp4/ecrire_v_1_1.mp4"
-    },
-    "lentille de contact": {
-        name: "lentille de contact",
-        url: "https://www.elix-lsf.fr/IMG/mp4/lentille_nf_5_6.mp4"
-    },
-    "énerver": {
-        name: "énerver",
-        url: "https://www.elix-lsf.fr/IMG/mp4/enerver_v_1_1.mp4"
-    },
-    "personne folle": {
-        name: "personne folle",
-        url: "folle https://www.elix-lsf.fr/IMG/mp4/fou_nm_1_1.mp4"
-    },
-    "avion": {
-        name: "avion",
-        url: "https://www.elix-lsf.fr/IMG/mp4/avion_nm_1_1.mp4"
-    },
-    "bateau": {
-        name: "bateau",
-        url: "https://www.elix-lsf.fr/IMG/mp4/bateau_nm_1_1.mp4"
-    },
-    "mer": {
-        name: "mer",
-        url: "https://www.elix-lsf.fr/IMG/mp4/mer_nf_2_1.mp4"
-    },
-    "ciel": {
-        name: "ciel",
-        url: "https://www.elix-lsf.fr/IMG/mp4/ciel_nm_1_1.mp4"
-    },
-    "pluie": {
-        name: "pluie",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pluie-2.mp4"
-    },
-    "douche": {
-        name: "douche",
-        url: "https://www.elix-lsf.fr/IMG/mp4/douche_nf_1_1.mp4"
-    },
-    "guitare": {
-        name: "guitare",
-        url: "https://www.elix-lsf.fr/IMG/mp4/guitare_nf_1_1.mp4"
-    },
-    "violon": {
-        name: "violon",
-        url: "https://www.elix-lsf.fr/IMG/mp4/violon_nm_1_1.mp4"
-    },
-    "travail": {
-        name: "travail",
-        url: "https://www.elix-lsf.fr/IMG/mp4/travail-2.mp4"
-    },
-    "quel": {
-        name: "quel",
-        url: "https://www.elix-lsf.fr/IMG/mp4/quel_adj_1_1.mp4"
-    },
-    "dentifrice": {
-        name: "dentifrice",
-        url: "https://www.elix-lsf.fr/IMG/mp4/dentifrice_nm_1_6.mp4"
-    },
-    "révision": {
-        name: "révision",
-        url: "https://www.elix-lsf.fr/IMG/mp4/revision_nf_1_1.mp4"
-    },
-    "musique": {
-        name: "musique",
-        url: "https://www.elix-lsf.fr/IMG/mp4/musique_nf_2_6.mp4"
-    },
-    "moustache": {
-        name: "moustache",
-        url: "https://www.elix-lsf.fr/IMG/mp4/moustache_nf_2_1.mp4"
-    },
-    "barbe": {
-        name: "barbe",
-        url: "https://www.elix-lsf.fr/IMG/mp4/barbe_nf_1_1.mp4"
-    },
-    "rasoir": {
-        name: "rasoir",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00340.mp4"
-    },
-    "noir (de peau)": {
-        name: "noir (de peau)",
-        url: "https://www.elix-lsf.fr/IMG/mp4/noir_nprop_1_6.mp4"
-    },
-    "la joue": {
-        name: "la joue",
-        url: "https://www.elix-lsf.fr/IMG/mp4/joue_nf_1_1.mp4"
-    },
-    "Etats-unis": {
-        name: "Etats-unis",
-        url: "https://www.elix-lsf.fr/IMG/mp4/etats-unis_nprop_1_6.mp4"
-    },
-    "bravo": {
-        name: "bravo",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00074-4.mp4"
-    },
-    "France": {
-        name: "France",
-        url: "https://www.elix-lsf.fr/IMG/mp4/france_nprop_10_6.mp4"
-    },
-    "front": {
-        name: "front",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00220.mp4"
-    },
-    "théâtre": {
-        name: "théâtre",
-        url: "https://www.elix-lsf.fr/IMG/mp4/theatre_nm_1_1.mp4"
-    },
-    "comédien": {
-        name: "comédien",
-        url: "https://www.elix-lsf.fr/IMG/mp4/comedien_n_1_1_copie.mp4"
-    },
-    "président": {
-        name: "président",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00039-2.mp4"
-    },
-    "république": {
-        name: "république",
-        url: "https://www.elix-lsf.fr/IMG/mp4/republique_nf_1_1.mp4"
-    },
-    "policier": {
-        name: "policier",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00005.mp4"
-    },
-    "mort": {
-        name: "mort",
-        url: "https://www.elix-lsf.fr/IMG/mp4/mort_adj_2_1.mp4"
-    },
-    "vivant": {
-        name: "vivant",
-        url: "https://www.elix-lsf.fr/IMG/mp4/vivant_adj_2_1.mp4"
-    },
-    "film": {
-        name: "film",
-        url: "https://www.elix-lsf.fr/IMG/mp4/film_nm_2_1.mp4"
-    },
-    "chant": {
-        name: "chant",
-        url: "https://www.elix-lsf.fr/IMG/mp4/chant_nm_1_6-2.mp4"
-    },
-    "chantsigne": {
-        name: "chantsigne",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00862.mp4"
-    },
-    "danse": {
-        name: "danse",
-        url: "https://www.elix-lsf.fr/IMG/mp4/danse_nf_2_6-3.mp4"
-    },
-    "musclé": {
-        name: "musclé",
-        url: "https://www.elix-lsf.fr/IMG/mp4/muscle_adj_1_1.mp4"
-    },
-    "couronne": {
-        name: "couronne",
-        url: "https://www.elix-lsf.fr/IMG/mp4/couronne_nf_1_2.mp4"
-    },
-    "roi": {
-        name: "roi",
-        url: "https://www.elix-lsf.fr/IMG/mp4/roi_nm_1_1.mp4"
-    },
-    "prince": {
-        name: "prince",
-        url: "https://www.elix-lsf.fr/IMG/mp4/prince_nm_1_1.mp4"
-    },
-    "caméscope/caméra": {
-        name: "caméscope/caméra",
-        url: "https://www.elix-lsf.fr/IMG/mp4/camescope_nm_1_1.mp4"
-    },
-    "famille": {
-        name: "famille",
-        url: "https://www.elix-lsf.fr/IMG/mp4/famille_nf_1_1.mp4"
-    },
-    "grand-mère": {
-        name: "grand-mère",
-        url: "https://www.elix-lsf.fr/IMG/mp4/grand_mere.mp4"
-    },
-    "grand-père": {
-        name: "grand-père",
-        url: "https://www.elix-lsf.fr/IMG/mp4/grand-pere_nm_1_6.mp4"
-    },
-    "mère": {
-        name: "mère",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00253-2.mp4"
-    },
-    "père": {
-        name: "père",
-        url: "https://www.elix-lsf.fr/IMG/mp4/pere_nm_1_1.mp4"
-    },
-    "soeur": {
-        name: "soeur",
-        url: "https://www.elix-lsf.fr/IMG/mp4/soeur_nf_2_1.mp4"
-    },
-    "frère": {
-        name: "frère",
-        url: "https://www.elix-lsf.fr/IMG/mp4/frere_nm_1_1.mp4"
-    },
-    "fils": {
-        name: "fils",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fils_nm_1_1.mp4"
-    },
-    "petit-fils": {
-        name: "petit-fils",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cousin_nm_2_1.mp4"
-    },
-    "neveu": {
-        name: "neveu",
-        url: "https://www.elix-lsf.fr/IMG/mp4/neveu_nm_1_1.mp4"
-    },
-    "cousin": {
-        name: "cousin",
-        url: "https://www.elix-lsf.fr/IMG/mp4/cousin_nm_2_1.mp4"
-    },
-    "tante": {
-        name: "tante",
-        url: "https://www.elix-lsf.fr/IMG/mp4/tante_nf_1_1.mp4"
-    },
-    "oncle": {
-        name: "oncle",
-        url: "https://www.elix-lsf.fr/IMG/mp4/oncle_nm_1_2.mp4"
-    },
-    "couple": {
-        name: "couple",
-        url: "https://www.elix-lsf.fr/IMG/mp4/couple_nm_1_1.mp4"
-    },
-    "petit(e) ami(e)": {
-        name: "petit(e) ami(e)",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00265.mp4"
-    },
-    "ami": {
-        name: "ami",
-        url: "https://www.elix-lsf.fr/IMG/mp4/ami.mp4"
-    },
-    "fiancer": {
-        name: "fiancer",
-        url: "https://www.elix-lsf.fr/IMG/mp4/fiancer_v_1_1.mp4"
-    },
-    "divorce": {
-        name: "divorce",
-        url: "https://www.elix-lsf.fr/IMG/mp4/divorce_nm_1_2.mp4"
-    },
-    "demi-frère": {
-        name: "demi-frère",
-        url: "https://www.elix-lsf.fr/IMG/mp4/00245-2.mp4"
-    },
-    "montagne": {
-        name: "montagne",
-        url: "https://www.elix-lsf.fr/IMG/mp4/montagne_nf_1_2.mp4"
-    },
-    "campagne": {
-        name: "campagne",
-        url: "https://www.elix-lsf.fr/IMG/mp4/campagne_nf_1_1.mp4"
-    },
-    "camping": {
-        name: "camping",
-        url: "https://www.elix-lsf.fr/IMG/mp4/camping_nm_1_1.mp4"
-    },
-    "marier": {
-        name: "marier",
-        url: "https://www.elix-lsf.fr/IMG/mp4/marier_v_1_1.mp4"
-    },
-    "amour": {
-        name: "amour",
-        url: "https://www.elix-lsf.fr/IMG/mp4/amour_nm_1_1.mp4"
-    },
-    "cheveux bouclés": {
-        name: "cheveux bouclés",
-        url: "https://www.elix-lsf.fr/IMG/mp4/boucle_adj_2_6.mp4"
-    },
+"bonjour": {name: "bonjour",url: "https://www.elix-lsf.fr/IMG/mp4/bonjour-3.mp4"},
+"au revoir": {name: "au revoir",url: "https://www.elix-lsf.fr/IMG/mp4/aurevoir_nm_1_1.mp4"},
+"comment ça va ?": {name: "comment ça va ?",url: "https://www.elix-lsf.fr/IMG/mp4/cava_int_10_6-3.mp4"},
+"être en forme": {name: "être en forme",url: "https://www.elix-lsf.fr/IMG/mp4/enforme_adj_1_2.mp4"},
+"oui": {name: "oui",url: "https://www.elix-lsf.fr/IMG/mp4/oui_adv_1_1.mp4"},
+"non": {name: "non",url: "https://www.elix-lsf.fr/IMG/mp4/non_adv_1_1.mp4"},
+"pause": {name: "pause",url: "https://www.elix-lsf.fr/IMG/mp4/pause.mp4"},
+"café": {name: "café",url: "https://www.elix-lsf.fr/IMG/mp4/cafe_nm_1_6.mp4"},
+"thé": {name: "thé",url: "https://www.elix-lsf.fr/IMG/mp4/the.mp4"},
+"être en retard": {name: "être en retard",url: "https://www.elix-lsf.fr/IMG/mp4/retard2.mp4"},
+"être fatigué": {name: "être fatigué",url: "https://www.elix-lsf.fr/IMG/mp4/fatigue_adj_1_6.mp4"},
+"être malade": {name: "être malade",url: "https://www.elix-lsf.fr/IMG/mp4/malade-3.mp4"},
+"s'il vous plaît": {name: "s'il vous plaît",url: "https://www.elix-lsf.fr/IMG/mp4/02252.mp4"},
+"pardon": {name: "pardon",url: "https://www.elix-lsf.fr/IMG/mp4/pardon_nm_1_1.mp4"},
+"merci": {name: "merci",url: "https://www.elix-lsf.fr/IMG/mp4/merci_nm_1_1-2.mp4"},
+"toilettes": {name: "toilettes",url: "https://www.elix-lsf.fr/IMG/mp4/toilettes_n_1_6.mp4"},
+"sourd": {name: "sourd",url: "https://www.elix-lsf.fr/IMG/mp4/sourd.mp4"},
+"boisson": {name: "boisson",url: "https://www.elix-lsf.fr/IMG/mp4/boisson_nf_1_1.mp4"},
+"couleur": {name: "couleur",url: "https://www.elix-lsf.fr/IMG/mp4/couleur.mp4"},
+"bleu": {name: "bleu",url: "https://www.elix-lsf.fr/IMG/mp4/bleu_nm_1_11.mp4"},
+"rouge": {name: "rouge",url: "https://www.elix-lsf.fr/IMG/mp4/rouge.mp4"},
+"vert": {name: "vert",url: "https://www.elix-lsf.fr/IMG/mp4/vert.mp4"},
+"jaune": {name: "jaune",url: "https://www.elix-lsf.fr/IMG/mp4/jaune_adj_1_1.mp4"},
+"gris": {name: "gris",url: "https://www.elix-lsf.fr/IMG/mp4/gris_nm_1_2.mp4"},
+"rose": {name: "rose",url: "https://www.elix-lsf.fr/IMG/mp4/rose_adj_2_1.mp4"},
+"noir": {name: "noir",url: "https://www.elix-lsf.fr/IMG/mp4/01488.mp4"},
+"blanc": {name: "blanc",url: "https://www.elix-lsf.fr/IMG/mp4/blanc_adj_1_1.mp4"},
+"violet": {name: "violet",url: "https://www.elix-lsf.fr/IMG/mp4/01478.mp4"},
+"marron": {name: "marron",url: "https://www.elix-lsf.fr/IMG/mp4/marron_adjetn_10_1.mp4"},
+"orange": {name: "orange",url: "https://www.elix-lsf.fr/IMG/mp4/orange_adj_1_2.mp4"},
+"or (métal)": {name: "or (métal)",url: "https://www.elix-lsf.fr/IMG/mp4/or_nm_1_1.mp4"},
+"argent (métal)": {name: "argent (métal)",url: "https://www.elix-lsf.fr/IMG/mp4/argent_nm_1_1.mp4"},
+"clair": {name: "clair",url: "https://www.elix-lsf.fr/IMG/mp4/clair_adj_1_1.mp4"},
+"foncé": {name: "foncé",url: "https://www.elix-lsf.fr/IMG/mp4/fonce_adj_1_1.mp4"},
+"vif": {name: "vif",url: "https://www.elix-lsf.fr/IMG/mp4/vif_adj_1_1.mp4"},
+"transparent": {name: "transparent",url: "https://www.elix-lsf.fr/IMG/mp4/transparent_adj_1_2.mp4"},
+"manger": {name: "manger",url: "https://www.elix-lsf.fr/IMG/mp4/00280.mp4"},
+"boire": {name: "boire",url: "https://www.elix-lsf.fr/IMG/mp4/boire-2.mp4"},
+"voiture": {name: "voiture",url: "https://www.elix-lsf.fr/IMG/mp4/voiture_nf_1_6.mp4"},
+"eau": {name: "eau",url: "https://www.elix-lsf.fr/IMG/mp4/eau-2.mp4"},
+"grand": {name: "grand",url: "https://www.elix-lsf.fr/IMG/mp4/grand_adj_1_1.mp4"},
+"moto": {name: "moto",url: "https://www.elix-lsf.fr/IMG/mp4/moto_nf_1_1.mp4"},
+"vélo": {name: "vélo",url: "https://www.elix-lsf.fr/IMG/mp4/velo-2.mp4"},
+"aspirateur": {name: "aspirateur",url: "https://www.elix-lsf.fr/IMG/mp4/aspirateur.mp4"},
+"arbre": {name: "arbre",url: "https://www.elix-lsf.fr/IMG/mp4/arbre-3.mp4"},
+"bébé": {name: "bébé",url: "https://www.elix-lsf.fr/IMG/mp4/bebe_nm_1_2.mp4"},
+"oeil": {name: "oeil",url: "https://www.elix-lsf.fr/IMG/mp4/oeil_nm_1_1.mp4"},
+"bouche": {name: "bouche",url: "https://www.elix-lsf.fr/IMG/mp4/bouche_nf_1_1.mp4"},
+"nez": {name: "nez",url: "https://www.elix-lsf.fr/IMG/mp4/nez_nm_1_1.mp4"},
+"oreille": {name: "oreille",url: "https://www.elix-lsf.fr/IMG/mp4/oreille_nf_1_1.mp4"},
+"cheveu": {name: "cheveu",url: "https://www.elix-lsf.fr/IMG/mp4/cheveu_nm_1_1.mp4"},
+"lampe torche": {name: "lampe torche",url: "https://www.elix-lsf.fr/IMG/mp4/lampedepoche_nf_10_1.mp4"},
+"bouteille": {name: "bouteille",url: "https://www.elix-lsf.fr/IMG/mp4/bouteille_nf_1_1.mp4"},
+"parapluie": {name: "parapluie",url: "https://www.elix-lsf.fr/IMG/mp4/parapluie_nm_1_1.mp4"},
+"peur": {name: "peur",url: "https://www.elix-lsf.fr/IMG/mp4/peur.mp4"},
+"faim": {name: "faim",url: "https://www.elix-lsf.fr/IMG/mp4/00167.mp4"},
+"soif": {name: "soif",url: "https://www.elix-lsf.fr/IMG/mp4/soif_nf_1_1.mp4"},
+"école": {name: "école",url: "https://www.elix-lsf.fr/IMG/mp4/ecole-4.mp4"},
+"sac à dos": {name: "sac à dos",url: "https://www.elix-lsf.fr/IMG/mp4/sacados_nm_1_1.mp4"},
+"pêcher (à la ligne)": {name: "pêcher (à la ligne)",url: "https://www.elix-lsf.fr/IMG/mp4/pecher_1_2.mp4"},
+"fleur": {name: "fleur",url: "https://www.elix-lsf.fr/IMG/mp4/fleur_nf_1_1.mp4"},
+"aimer": {name: "aimer",url: "https://www.elix-lsf.fr/IMG/mp4/aimer_v_2_6.mp4"},
+"détester": {name: "détester",url: "https://www.elix-lsf.fr/IMG/mp4/detester_v_1_1.mp4"},
+"ne pas aimer": {name: "ne pas aimer",url: "https://www.elix-lsf.fr/IMG/mp4/nepasaimer_v_10_6.mp4"},
+"réfrigérateur": {name: "réfrigérateur",url: "https://www.elix-lsf.fr/IMG/mp4/refrigerateur_nm_1_1.mp4"},
+"congélateur": {name: "congélateur",url: "https://www.elix-lsf.fr/IMG/mp4/congelateur_nm_1_1.mp4"},
+"table": {name: "table",url: "https://www.elix-lsf.fr/IMG/mp4/table_nf_1_1.mp4"},
+"siège": {name: "siège",url: "https://www.elix-lsf.fr/IMG/mp4/00018.mp4"},
+"livre": {name: "livre",url: "https://www.elix-lsf.fr/IMG/mp4/livre.mp4"},
+"monnaie/argent": {name: "monnaie/argent",url: "https://www.elix-lsf.fr/IMG/mp4/argent-2.mp4"},
+"indien d'Amérique": {name: "indien d'Amérique",url: "https://www.elix-lsf.fr/IMG/mp4/00248.mp4"},
+"vache": {name: "vache",url: "https://www.elix-lsf.fr/IMG/mp4/vache_nf_1_6.mp4"},
+"taureau": {name: "taureau",url: "https://www.elix-lsf.fr/IMG/mp4/taureau_nm_1_1.mp4"},
+"éléphant": {name: "éléphant",url: "https://www.elix-lsf.fr/IMG/mp4/00161.mp4"},
+"boiter": {name: "boiter",url: "https://www.elix-lsf.fr/IMG/mp4/boiter_v_1_1.mp4"},
+"chat": {name: "chat",url: "https://www.elix-lsf.fr/IMG/mp4/chat-2.mp4"},
+"homme": {name: "homme",url: "https://www.elix-lsf.fr/IMG/mp4/homme-2.mp4"},
+"femme": {name: "femme",url: "https://www.elix-lsf.fr/IMG/mp4/femme-2.mp4"},
+"fille": {name: "fille",url: "https://www.elix-lsf.fr/IMG/mp4/fille.mp4"},
+"garçon": {name: "garçon",url: "https://www.elix-lsf.fr/IMG/mp4/garcon.mp4"},
+"jeune": {name: "jeune",url: "https://www.elix-lsf.fr/IMG/mp4/jeune_adj_1_1.mp4"},
+"vieux": {name: "vieux",url: "https://www.elix-lsf.fr/IMG/mp4/vieux_adj_2_1.mp4"},
+"mince": {name: "mince",url: "https://www.elix-lsf.fr/IMG/mp4/mince_adj_1_1.mp4"},
+"gros": {name: "gros",url: "https://www.elix-lsf.fr/IMG/mp4/gros_adj_1_1.mp4"},
+"visage": {name: "visage",url: "https://www.elix-lsf.fr/IMG/mp4/visage_nm_1_1.mp4"},
+"langue": {name: "langue",url: "https://www.elix-lsf.fr/IMG/mp4/langue_nf_2_1.mp4"},
+"sourcil": {name: "sourcil",url: "https://www.elix-lsf.fr/IMG/mp4/soucils.mp4"},
+"cils": {name: "cils",url: "https://www.elix-lsf.fr/IMG/mp4/cil_nm_1_1.mp4"},
+"accueil": {name: "accueil",url: "https://www.elix-lsf.fr/IMG/mp4/accueil_nm_2_1.mp4"},
+"scie": {name: "scie",url: "https://www.elix-lsf.fr/IMG/mp4/scie_nf_1_1.mp4"},
+"sucette": {name: "sucette",url: "https://www.elix-lsf.fr/IMG/mp4/sucette_nf_1_1.mp4"},
+"glace": {name: "glace",url: "https://www.elix-lsf.fr/IMG/mp4/glace_nf_2_1.mp4"},
+"loupe": {name: "loupe",url: "https://www.elix-lsf.fr/IMG/mp4/loupe_nf_2_1.mp4"},
+"bowling": {name: "bowling",url: "https://www.elix-lsf.fr/IMG/mp4/bowling_nm_1_1.mp4"},
+"lunettes": {name: "lunettes",url: "https://www.elix-lsf.fr/IMG/mp4/lunettes_nfp_1_1.mp4"},
+"scooter": {name: "scooter",url: "https://www.elix-lsf.fr/IMG/mp4/scooter_nm_1_6.mp4"},
+"question": {name: "question",url: "https://www.elix-lsf.fr/IMG/mp4/question_nf_1_1.mp4"},
+"corps": {name: "corps",url: "https://www.elix-lsf.fr/IMG/mp4/corps_nm_1_1.mp4"},
+"enceinte": {name: "enceinte",url: "https://www.elix-lsf.fr/IMG/mp4/enceinte_adj_1_1.mp4"},
+"signe": {name: "signe",url: "https://www.elix-lsf.fr/IMG/mp4/signe_nm_2_2.mp4"},
+"lèvre": {name: "lèvre",url: "https://www.elix-lsf.fr/IMG/mp4/levre_nf_1_1.mp4"},
+"avant": {name: "avant",url: "https://www.elix-lsf.fr/IMG/mp4/avant_adv_1_1_-_copie.mp4"},
+"après": {name: "après",url: "https://www.elix-lsf.fr/IMG/mp4/apres_adv_1_1.mp4"},
+"partir": {name: "partir",url: "https://www.elix-lsf.fr/IMG/mp4/partir_v_3_6.mp4"},
+"compris": {name: "compris",url: "https://www.elix-lsf.fr/IMG/mp4/compris_adj_2_1.mp4"},
+"forme": {name: "forme",url: "https://www.elix-lsf.fr/IMG/mp4/forme_nf_1_1.mp4"},
+"beau": {name: "beau",url: "https://www.elix-lsf.fr/IMG/mp4/beau.mp4"},
+"moche": {name: "moche",url: "https://www.elix-lsf.fr/IMG/mp4/moche.mp4"},
+"pareil": {name: "pareil",url: "https://www.elix-lsf.fr/IMG/mp4/pareil_adj_1_1.mp4"},
+"différent": {name: "différent",url: "https://www.elix-lsf.fr/IMG/mp4/different_adj_1_2.mp4"},
+"interdit": {name: "interdit",url: "https://www.elix-lsf.fr/IMG/mp4/interdit.mp4"},
+"hache": {name: "hache",url: "https://www.elix-lsf.fr/IMG/mp4/hache_nf_1_1.mp4"},
+"maison": {name: "maison",url: "https://www.elix-lsf.fr/IMG/mp4/maison-2.mp4"},
+"sous-titre": {name: "sous-titre",url: "https://www.elix-lsf.fr/IMG/mp4/sous-titrer_v_1_6.mp4"},
+"télévision": {name: "télévision",url: "https://www.elix-lsf.fr/IMG/mp4/television_nf_1_6.mp4"},
+"traducteur": {name: "traducteur",url: "https://www.elix-lsf.fr/IMG/mp4/traducteur_nm_1_6.mp4"},
+"peindre": {name: "peindre",url: "https://www.elix-lsf.fr/IMG/mp4/peindre_v_2_1.mp4"},
+"affiche": {name: "affiche",url: "https://www.elix-lsf.fr/IMG/mp4/affiche_nf_1_1.mp4"},
+"dessiner": {name: "dessiner",url: "https://www.elix-lsf.fr/IMG/mp4/dessiner_v_1_1.mp4"},
+"écrire": {name: "écrire",url: "https://www.elix-lsf.fr/IMG/mp4/ecrire_v_1_1.mp4"},
+"lentille de contact": {name: "lentille de contact",url: "https://www.elix-lsf.fr/IMG/mp4/lentille_nf_5_6.mp4"},
+"énerver": {name: "énerver",url: "https://www.elix-lsf.fr/IMG/mp4/enerver_v_1_1.mp4"},
+"personne folle": {name: "personne folle",url: "folle https://www.elix-lsf.fr/IMG/mp4/fou_nm_1_1.mp4"},
+"avion": {name: "avion",url: "https://www.elix-lsf.fr/IMG/mp4/avion_nm_1_1.mp4"},
+"bateau": {name: "bateau",url: "https://www.elix-lsf.fr/IMG/mp4/bateau_nm_1_1.mp4"},
+"mer": {name: "mer",url: "https://www.elix-lsf.fr/IMG/mp4/mer_nf_2_1.mp4"},
+"ciel": {name: "ciel",url: "https://www.elix-lsf.fr/IMG/mp4/ciel_nm_1_1.mp4"},
+"pluie": {name: "pluie",url: "https://www.elix-lsf.fr/IMG/mp4/pluie-2.mp4"},
+"douche": {name: "douche",url: "https://www.elix-lsf.fr/IMG/mp4/douche_nf_1_1.mp4"},
+"guitare": {name: "guitare",url: "https://www.elix-lsf.fr/IMG/mp4/guitare_nf_1_1.mp4"},
+"violon": {name: "violon",url: "https://www.elix-lsf.fr/IMG/mp4/violon_nm_1_1.mp4"},
+"travail": {name: "travail",url: "https://www.elix-lsf.fr/IMG/mp4/travail-2.mp4"},
+"quel": {name: "quel",url: "https://www.elix-lsf.fr/IMG/mp4/quel_adj_1_1.mp4"},
+"dentifrice": {name: "dentifrice",url: "https://www.elix-lsf.fr/IMG/mp4/dentifrice_nm_1_6.mp4"},
+"révision": {name: "révision",url: "https://www.elix-lsf.fr/IMG/mp4/revision_nf_1_1.mp4"},
+"musique": {name: "musique",url: "https://www.elix-lsf.fr/IMG/mp4/musique_nf_2_6.mp4"},
+"moustache": {name: "moustache",url: "https://www.elix-lsf.fr/IMG/mp4/moustache_nf_2_1.mp4"},
+"barbe": {name: "barbe",url: "https://www.elix-lsf.fr/IMG/mp4/barbe_nf_1_1.mp4"},
+"rasoir": {name: "rasoir",url: "https://www.elix-lsf.fr/IMG/mp4/00340.mp4"},
+"noir (de peau)": {name: "noir (de peau)",url: "https://www.elix-lsf.fr/IMG/mp4/noir_nprop_1_6.mp4"},
+"la joue": {name: "la joue",url: "https://www.elix-lsf.fr/IMG/mp4/joue_nf_1_1.mp4"},
+"Etats-unis": {name: "Etats-unis",url: "https://www.elix-lsf.fr/IMG/mp4/etats-unis_nprop_1_6.mp4"},
+"bravo": {name: "bravo",url: "https://www.elix-lsf.fr/IMG/mp4/00074-4.mp4"},
+"France": {name: "France",url: "https://www.elix-lsf.fr/IMG/mp4/france_nprop_10_6.mp4"},
+"front": {name: "front",url: "https://www.elix-lsf.fr/IMG/mp4/00220.mp4"},
+"théâtre": {name: "théâtre",url: "https://www.elix-lsf.fr/IMG/mp4/theatre_nm_1_1.mp4"},
+"comédien": {name: "comédien",url: "https://www.elix-lsf.fr/IMG/mp4/comedien_n_1_1_copie.mp4"},
+"président": {name: "président",url: "https://www.elix-lsf.fr/IMG/mp4/00039-2.mp4"},
+"république": {name: "république",url: "https://www.elix-lsf.fr/IMG/mp4/republique_nf_1_1.mp4"},
+"policier": {name: "policier",url: "https://www.elix-lsf.fr/IMG/mp4/00005.mp4"},
+"mort": {name: "mort",url: "https://www.elix-lsf.fr/IMG/mp4/mort_adj_2_1.mp4"},
+"vivant": {name: "vivant",url: "https://www.elix-lsf.fr/IMG/mp4/vivant_adj_2_1.mp4"},
+"film": {name: "film",url: "https://www.elix-lsf.fr/IMG/mp4/film_nm_2_1.mp4"},
+"chant": {name: "chant",url: "https://www.elix-lsf.fr/IMG/mp4/chant_nm_1_6-2.mp4"},
+"chantsigne": {name: "chantsigne",url: "https://www.elix-lsf.fr/IMG/mp4/00862.mp4"},
+"danse": {name: "danse",url: "https://www.elix-lsf.fr/IMG/mp4/danse_nf_2_6-3.mp4"},
+"musclé": {name: "musclé",url: "https://www.elix-lsf.fr/IMG/mp4/muscle_adj_1_1.mp4"},
+"couronne": {name: "couronne",url: "https://www.elix-lsf.fr/IMG/mp4/couronne_nf_1_2.mp4"},
+"roi": {name: "roi",url: "https://www.elix-lsf.fr/IMG/mp4/roi_nm_1_1.mp4"},
+"prince": {name: "prince",url: "https://www.elix-lsf.fr/IMG/mp4/prince_nm_1_1.mp4"},
+"caméscope/caméra": {name: "caméscope/caméra",url: "https://www.elix-lsf.fr/IMG/mp4/camescope_nm_1_1.mp4"},
+"famille": {name: "famille",url: "https://www.elix-lsf.fr/IMG/mp4/famille_nf_1_1.mp4"},
+"grand-mère": {name: "grand-mère",url: "https://www.elix-lsf.fr/IMG/mp4/grand_mere.mp4"},
+"grand-père": {name: "grand-père",url: "https://www.elix-lsf.fr/IMG/mp4/grand-pere_nm_1_6.mp4"},
+"mère": {name: "mère",url: "https://www.elix-lsf.fr/IMG/mp4/00253-2.mp4"},
+"père": {name: "père",url: "https://www.elix-lsf.fr/IMG/mp4/pere_nm_1_1.mp4"},
+"soeur": {name: "soeur",url: "https://www.elix-lsf.fr/IMG/mp4/soeur_nf_2_1.mp4"},
+"frère": {name: "frère",url: "https://www.elix-lsf.fr/IMG/mp4/frere_nm_1_1.mp4"},
+"fils": {name: "fils",url: "https://www.elix-lsf.fr/IMG/mp4/fils_nm_1_1.mp4"},
+"petit-fils": {name: "petit-fils",url: "https://www.elix-lsf.fr/IMG/mp4/petit-fils_nm_1_6.mp4"},
+"neveu": {name: "neveu",url: "https://www.elix-lsf.fr/IMG/mp4/neveu_nm_1_1.mp4"},
+"cousin": {name: "cousin",url: "https://www.elix-lsf.fr/IMG/mp4/cousin_nm_2_1.mp4"},
+"tante": {name: "tante",url: "https://www.elix-lsf.fr/IMG/mp4/tante_nf_1_6.mp4"},
+"oncle": {name: "oncle",url: "https://www.elix-lsf.fr/IMG/mp4/oncle_nm_1_2.mp4"},
+"couple": {name: "couple",url: "https://www.elix-lsf.fr/IMG/mp4/couple_nm_1_1.mp4"},
+"petit(e) ami(e)": {name: "petit(e) ami(e)",url: "https://www.elix-lsf.fr/IMG/mp4/00265.mp4"},
+"ami": {name: "ami",url: "https://www.elix-lsf.fr/IMG/mp4/ami.mp4"},
+"fiancer": {name: "fiancer",url: "https://www.elix-lsf.fr/IMG/mp4/fiancer_v_1_1.mp4"},
+"divorce": {name: "divorce",url: "https://www.elix-lsf.fr/IMG/mp4/divorce_nm_1_2.mp4"},
+"demi-frère": {name: "demi-frère",url: "https://www.elix-lsf.fr/IMG/mp4/00245-2.mp4"},
+"montagne": {name: "montagne",url: "https://www.elix-lsf.fr/IMG/mp4/montagne_nf_1_2.mp4"},
+"campagne": {name: "campagne",url: "https://www.elix-lsf.fr/IMG/mp4/campagne_nf_1_1.mp4"},
+"camping": {name: "camping",url: "https://www.elix-lsf.fr/IMG/mp4/camping_nm_1_1.mp4"},
+"marier": {name: "marier",url: "https://www.elix-lsf.fr/IMG/mp4/marier_v_1_1.mp4"},
+"amour": {name: "amour",url: "https://www.elix-lsf.fr/IMG/mp4/amour_nm_1_1.mp4"},
+"cheveux bouclés": {name: "cheveux bouclés",url: "https://www.elix-lsf.fr/IMG/mp4/boucle_adj_2_6.mp4"},
+"grands-parents":{name:"grands-parents",url:"https://www.elix-lsf.fr/IMG/mp4/grands-parents_nmp_1_1.mp4"},
+"parents":{name:"parents",url:"https://www.elix-lsf.fr/IMG/mp4/parents_nmp_3_1.mp4"},
+"enfants":{name:"enfants",url:"https://www.elix-lsf.fr/IMG/mp4/enfant-2.mp4"},
+"célibataire":{name:"célibataire",url:"https://www.elix-lsf.fr/IMG/mp4/celibataire_adj_1_1.mp4"},
+"beau-fils":{name:"beau-fils",url:"https://www.elix-lsf.fr/IMG/mp4/beau-fils_nm_1_1.mp4"},
+"belle-fille":{name:"belle-fille",url:"https://www.elix-lsf.fr/IMG/mp4/belle-fille_nf_1_6.mp4"},
+"beau-père":{name:"beau-père",url:"https://www.elix-lsf.fr/IMG/mp4/00260-2.mp4"},
+"belle-mère":{name:"belle-mère",url:"https://www.elix-lsf.fr/IMG/mp4/00249-2.mp4"},
+"arrière grands parents":{name:"Arrière grands parents",url:"https://www.elix-lsf.fr/IMG/mp4/arriere-grand-parent_nm_1_6.mp4"},
+"gay":{name:"gay",url:"https://www.elix-lsf.fr/IMG/mp4/00102-4.mp4"},
+"lesbienne":{name:"lesbienne",url:"https://www.elix-lsf.fr/IMG/mp4/00104-2.mp4"},
+"amant":{name:"amant",url:"https://www.elix-lsf.fr/IMG/mp4/amant_nm_1_1.mp4"},
+"sapin":{name:"sapin",url:"https://www.elix-lsf.fr/IMG/mp4/sapin_nm_1_1.mp4"},
+"dieu":{name:"dieu",url:"https://www.elix-lsf.fr/IMG/mp4/dieu_nm_1_6.mp4"},
+"capricieux":{name:"capricieux",url:"https://www.elix-lsf.fr/IMG/mp4/capricieux_adj_1_2.mp4"},
+"canapé":{name:"canapé",url:"https://www.elix-lsf.fr/IMG/mp4/canape_nm_1_1.mp4"},
+"balai":{name:"balai",url:"https://www.elix-lsf.fr/IMG/mp4/balai_nm_1_1.mp4"},
+"bâiller":{name:"bâiller",url:"https://www.elix-lsf.fr/IMG/mp4/bailler_v_1_3.mp4"},
+"skier":{name:"skier",url:"https://www.elix-lsf.fr/IMG/mp4/skier_v_1_6.mp4"},
+"thermomètre":{name:"thermomètre ",url:"https://www.elix-lsf.fr/IMG/mp4/thermometremedical_nm_1_6.mp4"},
+"sandwich":{name:"sandwich",url:"https://www.elix-lsf.fr/IMG/mp4/sandwich_nm_1_1.mp4"},
+"hamburger":{name:"hamburger",url:"https://www.elix-lsf.fr/IMG/mp4/hamburger_nm_1_1.mp4"},
+"radin":{name:"radin",url:"https://www.elix-lsf.fr/IMG/mp4/radin_adj_1_1.mp4"},
+"sèche cheveux ":{name:"sèche cheveux ",url:"https://www.elix-lsf.fr/IMG/mp4/seche-cheveux_nm_1_1.mp4"},
+"repasser (le linge)":{name:"repasser (le linge)",url:"https://www.elix-lsf.fr/IMG/mp4/repasser_v_5_1.mp4"},
+"flûte":{name:"flûte",url:"https://www.elix-lsf.fr/IMG/mp4/flute_nf_1_2.mp4"},
+"trompette":{name:"trompette",url:"https://www.elix-lsf.fr/IMG/mp4/trompette_nf_1_1.mp4"},
+"ronfler":{name:"ronfler",url:"https://www.elix-lsf.fr/IMG/mp4/ronfler_v_1_1.mp4"},
+"carnet":{name:"carnet",url:"https://www.elix-lsf.fr/IMG/mp4/carnet_nm_1_1.mp4"},
+"carte à jouer":{name:"carte à jouer",url:"https://www.elix-lsf.fr/IMG/mp4/carte_nf_2_6.mp4"},
+"serrure":{name:"serrure",url:"https://www.elix-lsf.fr/IMG/mp4/serrure_nf_1_1.mp4"},
+"clé":{name:"clé",url:"https://www.elix-lsf.fr/IMG/mp4/cle_nf_10_6.mp4"},
+"savon":{name:"savon",url:"https://www.elix-lsf.fr/IMG/mp4/savon.mp4"},
+"photo":{name:"photo",url:"https://www.elix-lsf.fr/IMG/mp4/photo.mp4"},
+"image":{name:"image",url:"https://www.elix-lsf.fr/IMG/mp4/image_nf_3_1.mp4"},
+"puer":{name:"puer",url:"https://www.elix-lsf.fr/IMG/mp4/puer_v_1_1.mp4"},
+"terminer":{name:"terminer",url:"https://www.elix-lsf.fr/IMG/mp4/terminer_v_1_6.mp4"},
+"exemple":{name:"exemple",url:"https://www.elix-lsf.fr/IMG/mp4/exemple.mp4"},
+"maigre":{name:"maigre",url:"https://www.elix-lsf.fr/IMG/mp4/maigre_adj_1_1.mp4"},
+"fesses":{name:"fesses",url:"https://www.elix-lsf.fr/IMG/mp4/fesses_nfp_1_1.mp4"},
+"chauve":{name:"chauve",url:"https://www.elix-lsf.fr/IMG/mp4/chauve_nm_1_1.mp4"},
+"couettes":{name:"couettes",url:"https://www.elix-lsf.fr/IMG/mp4/couette_nf_2_1.mp4"},
+"blond":{name:"blond",url:"https://www.elix-lsf.fr/IMG/mp4/blond_nm_1_6.mp4"},
+"roux (cheveux)":{name:"roux (cheveux)",url:"https://www.elix-lsf.fr/IMG/mp4/roux_adj_2_1.mp4"},
+"brun":{name:"brun",url:"https://www.elix-lsf.fr/IMG/mp4/brun_adj_1_1.mp4"},
+"narine":{name:"narine",url:"https://www.elix-lsf.fr/IMG/mp4/narine_nf_1_1.mp4"},
+"fossette":{name:"fossette",url:"https://www.elix-lsf.fr/IMG/mp4/fossette_nf_1_1.mp4"},
+"facile":{name:"facile",url:"https://www.elix-lsf.fr/IMG/mp4/facile.mp4"},
+"difficile":{name:"difficile",url:"https://www.elix-lsf.fr/IMG/mp4/difficile1.mp4"},
+"cinéma":{name:"cinéma",url:"https://www.elix-lsf.fr/IMG/mp4/cinema_nm_1_2.mp4"},
+"laid":{name:"laid",url:"https://www.elix-lsf.fr/IMG/mp4/laid_adj_3_1.mp4"},
+"football":{name:"football",url:"https://www.elix-lsf.fr/IMG/mp4/football-2.mp4"},
+"ville":{name:"ville",url:"https://www.elix-lsf.fr/IMG/mp4/ville_nf_1_1.mp4"},
+"arabe":{name:"arabe",url:"https://www.elix-lsf.fr/IMG/mp4/arabe_adj_1_1.mp4"},
+"rap":{name:"rap",url:"https://www.elix-lsf.fr/IMG/mp4/00864.mp4"},
+"métis":{name:"métis",url:"https://www.elix-lsf.fr/IMG/mp4/metis_adj_1_2.mp4"},
+"caribou":{name:"caribou",url:""},
+"fusée":{name:"fusée",url:"https://www.elix-lsf.fr/IMG/mp4/fusee_nf_1_1.mp4"},
+"vacances":{name:"vacances",url:"https://www.elix-lsf.fr/IMG/mp4/vacances-2.mp4"},
+"oublier":{name:"oublier",url:"https://www.elix-lsf.fr/IMG/mp4/oublier_v_1_1.mp4"},
+"rompre (une relation)":{name:"rompre (une relation)",url:"https://www.elix-lsf.fr/IMG/mp4/rompre_v_1_1.mp4"},
+"tromper":{name:"tromper",url:"https://www.elix-lsf.fr/IMG/mp4/tromper_v_3_1.mp4"},
+"fidèle":{name:"fidèle",url:"https://www.elix-lsf.fr/IMG/mp4/fidele_adj_3_1.mp4"},
+"perdre (à un jeu)":{name:"perdre (à un jeu)",url:"https://www.elix-lsf.fr/IMG/mp4/perdre_v_10_6.mp4"},
+"gagner":{name:"gagner",url:"https://www.elix-lsf.fr/IMG/mp4/gagner_v_3_1.mp4"},
+"une souris":{name:"une souris",url:"https://www.elix-lsf.fr/IMG/mp4/00416.mp4"},
+"seins":{name:"seins",url:"https://www.elix-lsf.fr/IMG/mp4/seins_nmp_1_6.mp4"},
+"poker":{name:"poker",url:"https://www.elix-lsf.fr/IMG/mp4/poker_nm_1_1.mp4"},
+"coudre":{name:"coudre",url:"https://www.elix-lsf.fr/IMG/mp4/coudre_v_1_1.mp4"},
+"tricot":{name:"tricot",url:"https://www.elix-lsf.fr/IMG/mp4/tricot.mp4"},
+"hélicoptère":{name:"hélicoptère",url:"https://www.elix-lsf.fr/IMG/mp4/helicoptere_nm_1_1.mp4"},
+"vomir":{name:"vomir",url:"https://www.elix-lsf.fr/IMG/mp4/vomir_v_1_1.mp4"},
+"allumette":{name:"allumette",url:"https://www.elix-lsf.fr/IMG/mp4/allumette_nf_2_1.mp4"},
+"tir à l'arc":{name:"tir à l'arc",url:"https://www.elix-lsf.fr/IMG/mp4/tiralarc_nm_1_1.mp4"},
+"aide":{name:"aide",url:"https://www.elix-lsf.fr/IMG/mp4/aide-2.mp4"},
 
-    "grands-parents":{name:"grands-parents",url:"https://www.elix-lsf.fr/IMG/mp4/grands-parents_nmp_1_1.mp4"},
-    "parents":{name:"parents",url:"https://www.elix-lsf.fr/IMG/mp4/parents_nmp_3_1.mp4"},
-    "enfants":{name:"enfants",url:"https://www.elix-lsf.fr/IMG/mp4/enfant-2.mp4"},
-    "célibataire":{name:"célibataire",url:"https://www.elix-lsf.fr/IMG/mp4/celibataire_adj_1_1.mp4"},
-    "beau-fils":{name:"beau-fils",url:"https://www.elix-lsf.fr/IMG/mp4/beau-fils_nm_1_1.mp4"},
-    "belle-fille":{name:"belle-fille",url:"https://www.elix-lsf.fr/IMG/mp4/belle-fille_nf_1_6.mp4"},
-    "beau-père":{name:"beau-père",url:"https://www.elix-lsf.fr/IMG/mp4/00260-2.mp4"},
-    "belle-mère":{name:"belle-mère",url:"https://www.elix-lsf.fr/IMG/mp4/00249-2.mp4"},
-    "arrière grands parents":{name:"Arrière grands parents",url:"https://www.elix-lsf.fr/IMG/mp4/arriere-grand-parent_nm_1_6.mp4"},
-    "gay":{name:"gay",url:"https://www.elix-lsf.fr/IMG/mp4/00102-4.mp4"},
-    "lesbienne":{name:"lesbienne",url:"https://www.elix-lsf.fr/IMG/mp4/00104-2.mp4"},
-    "amant":{name:"amant",url:"https://www.elix-lsf.fr/IMG/mp4/amant_nm_1_1.mp4"},
+"défiancer": {name: "défiancer",url: ""},
+"pacser": {name: "pacser",url: ""},
+"neige": {name: "neige",url: ""},
+"ex-": {name: "ex-",url: ""},
+"demi-soeur ": {name: "demi-soeur",url: ""},
+"faire de la corde à sauter": {name: "faire de la corde à sauter",url: ""},
+"brosse à dents": {name: "brosse à dents",url: ""},
+"dent": {name: "dent",url: ""},
+"boucle d'oreille": {name: "boucle d'oreille",url: ""},
+"menton": {name: "menton",url: ""},
+"petit": {name: "petit",url: ""},
+"cow-boy": {name: "cow-boy",url: ""},
+"entendant": {name: "entendant",url: ""}
 
-
-    "séparer": {
-        name: "séparer",
-        url: ""
-    },
-    "défiancer": {
-        name: "défiancer",
-        url: ""
-    },
-    "pacser": {
-        name: "pacser",
-        url: ""
-    },
-    "neige": {
-        name: "neige",
-        url: ""
-    },
-
-
-
-    "ex-": {
-        name: "ex-",
-        url: ""
-    },
-    "demi-soeur ": {
-        name: "demi-soeur",
-        url: ""
-    },
-    "faire de la corde à sauter": {
-        name: "faire de la corde à sauter",
-        url: ""
-    },
-    "brosse à dents": {
-        name: "brosse à dents",
-        url: ""
-    },
-    "dent": {
-        name: "dent",
-        url: ""
-    },
-    "boucle d'oreille": {
-        name: "boucle d'oreille",
-        url: ""
-    },
-    "menton": {
-        name: "menton",
-        url: ""
-    },
-    "petit": {
-        name: "petit",
-        url: ""
-    },
-    "cow-boy": {
-        name: "cow-boy",
-        url: ""
-    },
-    "entendant": {
-        name: "entendant",
-        url: ""
-    }
-
-    // "":{name:"",url:""},
-    // "":{name:"",url:""},
-    // bouclé
-    // tresses
-    // ondulé
-    // court
-    // manga
-    // Bande dessinée
-    // Johnny Hallyday
-    // canada
+// "":{name:"",url:""},
+// "":{name:"",url:""},
+// bouclé
+// tresses
+// ondulé
+// court
+// manga
+// Bande dessinée
+// Johnny Hallyday
+// Canada
+// "médicament":{name:"médicament",url:""},
+// "cowboy":{name:"cowboy",url:""},
+// "pompe à vélo":{name:"pompe à vélo",url:""},
+// "glace a l'italienne":{name:"glace a l'italienne",url:""},
+// "glace en baton":{name:"glace en baton",url:""},
+// "radio":{name:"radio",url:""},
+// "verbe":{name:"verbe",url:""},
+// "paresseux":{name:"paresseux",url:""},
+// "se présenter":{name:"se présenter",url:""},
+// "teinture":{name:"teinture",url:""},
+// "tache de rousseur":{name:"tache de rousseur",url:""},
+// "acné":{name:"acné",url:""},
+// "grain de beauté":{name:"grain de beauté",url:""},
+// "vocabulaire":{name:"vocabulaire",url:""},
+// "célébrité":{name:"célébrité",url:""},
+// "star":{name:"star",url:"https://www.elix-lsf.fr/IMG/mp4/star_nf_1_1.mp4"},
 
 
 };
 
+for(let arg in VOCABULARY){
+    VOCABULARY[arg].name=arg;
+}
+
 
 LESSONS = {
-    "Seance 1": {
-        name: "1er contact",
-        words: ["signe",
-            "bonjour",
-            "au revoir",
-            "comment ça va ?",
-            "être en forme",
-            "oui",
-            "non",
-            "pause",
-            "café",
-            "thé",
-            "être en retard",
-            "être fatigué",
-            "être malade",
-            "s'il vous plaît",
-            "pardon",
-            "merci",
-            "toilettes",
-            "sourd",
-            "entendant",
-            "manger",
-            "boire",
-            "école",
-            "accueil",
-            "voiture",
-            "eau",
-            "boisson",
-            "question",
-            "signe",
-            "avant",
-            "maison",
-            "sous-titre",
-            "télévision",
-            "traducteur"
-        ]
-    },
-    "Seance 2": {
-        name: "mime",
-        words: [
-            "moto",
-            "vélo",
-            "scooter",
-            "aspirateur",
-            "arbre",
-            "lampe de poche",
-            "parapluie",
-            "peur",
-            "faim",
-            "sac à dos",
-            "pêcher (à la ligne)",
-            "bouteille",
-            "soif",
-            "avion",
-            "fleur",
-            "réfrigérateur",
-            "congélateur",
-            "table",
-            "siège",
-            "livre",
-            "indien d'Amérique",
-            "vache",
-            "taureau",
-            "boiter",
-            "chat",
-            "scie",
-            "sucette",
-            "glace",
-            "loupe",
-            "bowling",
-            "après",
-            "partir",
-            "hache",
-            "peindre",
-            "bateau",
-            "pluie",
-            "douche",
-            "violon",
-            "dentifrice",
-            "brosse à dents"
-        ]
-    },
-    "Seance 3": {
-        name: "couleurs",
-        words: ["couleur",
-            "bleu",
-            "rouge",
-            "vert",
-            "jaune",
-            "gris",
-            "rose",
-            "noir",
-            "blanc",
-            "violet",
-            "marron",
-            "orange",
-            "or (métal)",
-            "argent (métal)",
-            "clair",
-            "foncé",
-            "vif",
-            "transparent",
-            "aimer",
-            "apprécier",
-            "détester",
-            "ne pas aimer",
-            "compris",
-            "pareil",
-            "différent",
-            "interdit",
-            "affiche",
-            "écrire",
-            "énerver",
-            "mer",
-            "ciel",
-            "quel"
-        ]
-    },
-    "Seance 4": {
-        name: "corps",
-        words: [
-            "homme",
-            "femme",
-            "fille",
-            "garçon",
-            "jeune",
-            "vieux",
-            "bébé",
-            "grand",
-            "petit",
-            "mince",
-            "gros",
-            "visage",
-            "cheveu",
-            "cheveux bouclés",
-            "bouche",
-            "nez",
-            "oreille",
-            "oeil",
-            "langue",
-            "sourcil",
-            "cils",
-            "lèvre",
-            "dent",
-            "corps",
-            "lunettes",
-            "éléphant",
-            "enceinte",
-            "forme",
-            "beau",
-            "moche",
-            "dessiner",
-            "lentille de contact",
-            "guitare",
-            "travail"
-        ]
-    },
-    "Seance 5": {
-        name: "Célébrités",
-        words: [
-            "noir (de peau)",
-            "la joue",
-            "Etats-unis",
-            "bravo",
-            "France",
-            "front",
-            "théâtre",
-            "comédien",
-            "président",
-            "république",
-            "policier",
-            "mort",
-            "vivant",
-            "film",
-            "chant",
-            "chantsigne",
-            "danse",
-            "musclé",
-            "couronne",
-            "roi",
-            "prince",
-            "caméscope/caméra"
-        ]
-    },
-    "Seance 6": {
-        name: "Famille",
-        words: [
-            "famille",
-            "grands-parents",
-            "parents",
-            "enfants",
-            "grand-mère",
-            "grand-père",
-            "mère",
-            "père",
-            "soeur",
-            "frère",
-            "fille",
-            "fils",
-            "bébé",
-            "petite-fille",
-            "petit-fils",
-            "nièce",
-            "neveu",
-            "cousine",
-            "cousin",
-            "tante",
-            "oncle",
-            "gendre",
-            "beau-fils",
-            "belle-fille",
-            "beau-père",
-            "belle-mère",
-            "arrière grands parents",
-            "demi-soeur",
-            "demi-frère",
-            "amour",
-            "couple",
-            "petit(e) ami(e)",
-            "célibataire",
-            "fiancer",
-            "marier",
-            "pacser",
-            "séparer",
-            "défiancer",
-            "divorce",
-            "ex-",
-            "ami",
-            "gay",
-            "lesbienne",
-            "amant",
-            "maitresse ",
-            "pêche",
-            "montagne",
-            "campagne",
-            "mer",
-            "bateau",
-            "camping",
-            "neige"
-        ]
-    },
+"Seance 1": {name: "Premier contact",
+words: ["signe",
+    "bonjour",
+    "au revoir",
+    "comment ça va ?",
+    "être en forme",
+    "oui",
+    "non",
+    "pause",
+    "café",
+    "thé",
+    "être en retard",
+    "être fatigué",
+    "être malade",
+    "s'il vous plaît",
+    "pardon",
+    "merci",
+    "toilettes",
+    "sourd",
+    "entendant",
+    "manger",
+    "boire",
+    "école",
+    "accueil",
+    "voiture",
+    "eau",
+    "boisson",
+    "question",
+    "signe",
+    "avant",
+    "maison",
+    "sous-titre",
+    "télévision",
+    "traducteur"
+]
+},
+"Seance 2": {name: "Mime",
+words: [
+    "moto",
+    "vélo",
+    "scooter",
+    "aspirateur",
+    "arbre",
+    "lampe torche",
+    "parapluie",
+    "peur",
+    "faim",
+    "sac à dos",
+    "pêcher (à la ligne)",
+    "bouteille",
+    "soif",
+    "avion",
+    "fleur",
+    "réfrigérateur",
+    "congélateur",
+    "table",
+    "siège",
+    "livre",
+    "indien d'Amérique",
+    "vache",
+    "taureau",
+    "boiter",
+    "chat",
+    "une souris",
+    "scie",
+    "sucette",
+    "glace",
+    "loupe",
+    "bowling",
+    "après",
+    "partir",
+    "hache",
+    "peindre",
+    "bateau",
+    "pluie",
+    "douche",
+    "violon",
+    "dentifrice",
+    "brosse à dents",
+    "thermometre",
+    "sandwich",
+    "hamburger",
+    "radin",
+    "sèche cheveux ",
+    "repasser",
+    "flûte",
+    "trompette",
+    "ronfler",
+    "carnet",
+    "carte à jouer",
+    "serrure",
+    "clé",
+    "savon",
+    "photo",
+    "image",
+    "gourde",
+    "puer",
+    "sapin",
+    "dieu",
+    "caprice",
+    "fauteuil",
+    "chaise",
+    "balai",
+    "bailler",
+    "skier",
+    "terminer",
+    "exemple",
+    "poker",
+    "coudre",
+    "tricot",
+    "hélicoptère",
+    "vomir",
+    "allumette",
+    "tir à l'arc"
+]
+},
+"Seance 3": {name: "Couleurs",
+words: ["couleur",
+    "bleu",
+    "rouge",
+    "vert",
+    "jaune",
+    "gris",
+    "rose",
+    "noir",
+    "blanc",
+    "violet",
+    "marron",
+    "orange",
+    "or (métal)",
+    "argent (métal)",
+    "clair",
+    "foncé",
+    "vif",
+    "transparent",
+    "aimer",
+    "apprécier",
+    "détester",
+    "ne pas aimer",
+    "compris",
+    "pareil",
+    "différent",
+    "interdit",
+    "affiche",
+    "écrire",
+    "énerver",
+    "mer",
+    "ciel",
+    "quel"
+]
+},
+"Seance 4": {name: "Corps",
+words: [
+    "homme",
+    "femme",
+    "fille",
+    "garçon",
+    "jeune",
+    "vieux",
+    "bébé",
+    "grand",
+    "petit",
+    "mince",
+    "maigre",
+    "gros",
+    "fesses",
+    "seins",
+    "visage",
+    "cheveu",
+    "cheveux bouclés",
+    "chauve",
+    "couette",
+    "blond",
+    "roux",
+    "brun",
+    "bouche",
+    "nez",
+    "narine",
+    "oreille",
+    "oeil",
+    "langue",
+    "sourcil",
+    "cils",
+    "lèvre",
+    "dent",
+    "fossette",
+    "corps",
+    "lunettes",
+    "éléphant",
+    "enceinte",
+    "forme",
+    "beau",
+    "moche",
+    "dessiner",
+    "lentille de contact",
+    "guitare",
+    "travail",
+    "facile",
+    "difficile"
+]
+},
+"Seance 5": {name: "Célébrités",
+words: [
+    "noir (de peau)",
+    "la joue",
+    "Etats-unis",
+    "bravo",
+    "France",
+    "front",
+    "théâtre",
+    "comédien",
+    "président",
+    "république",
+    "policier",
+    "mort",
+    "vivant",
+    "film",
+    "chant",
+    "chantsigne",
+    "danse",
+    "musclé",
+    "couronne",
+    "roi",
+    "prince",
+    "caméscope/caméra",
+    "cinéma",
+    "mimique",
+    "laid",
+    "football",
+    "ville",
+    "arabe",
+    "rap",
+    "métis",
+    "caribou",
+    "fusée",
+    "aide"
+]
+},
+"Seance 6": {name: "Famille",
+words: [
+    "vacances",
+    "oublier",
+    "famille",
+    "grands-parents",
+    "parents",
+    "enfants",
+    "grand-mère",
+    "grand-père",
+    "mère",
+    "père",
+    "soeur",
+    "frère",
+    "fille",
+    "fils",
+    "bébé",
+    "petite-fille",
+    "petit-fils",
+    "nièce",
+    "neveu",
+    "cousine",
+    "cousin",
+    "tante",
+    "oncle",
+    "gendre",
+    "beau-fils",
+    "belle-fille",
+    "beau-père",
+    "belle-mère",
+    "arrière grands parents",
+    "demi-soeur",
+    "demi-frère",
+    "amour",
+    "couple",
+    "petit(e) ami(e)",
+    "célibataire",
+    "fiancer",
+    "marier",
+    "pacser",
+    "rompre (une relation)",
+    "défiancer",
+    "divorce",
+    "tromper",
+    "fidèle",
+    "ex-",
+    "ami",
+    "gay",
+    "lesbienne",
+    "amant",
+    "maitresse ",
+    "pêcher (à la ligne)",
+    "montagne",
+    "campagne",
+    "mer",
+    "bateau",
+    "camping",
+    "neige",
+    "perdre (à un jeu)",
+    "gagner"
+]
+},
     // "Seance ": {
     //     name: "",
     //     words: [
@@ -1084,8 +620,7 @@ LESSONS = {
 };
 
 CATEGORIES = {
-    "couleurs": {
-        name: "couleurs",
+    "couleurs": {name: "couleurs",
         words: ["bleu",
             "rouge",
             "vert",
