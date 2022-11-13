@@ -309,7 +309,6 @@ for(let arg in VOCABULARY){
     VOCABULARY[arg].name=arg;
 }
 
-
 LESSONS = {
 "Seance 1": {
 words: ["signe",
