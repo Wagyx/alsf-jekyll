@@ -31,11 +31,18 @@ function makeWordElement(name) {
 function makeVideoElement(url) {
     let element;
     if (url != "") {
-        element = document.createElement('video');
-        element.src = url;
-        element.controls = true;
-        element.loop = true;
-        element.muted = true;
+        if (url.includes("youtu")){
+            element = document.createElement('embed');
+            newurl = url;
+            element.src = newurl;
+        }
+        else{
+            element = document.createElement('video');
+            element.src = url;
+            element.controls = true;
+            element.loop = true;
+            element.muted = true;
+        }
     } else {
         element = document.createElement('p');
         element.innerText = "Aucune vidéo n'a été trouvé pour ce mot. Vous pouvez contribuer en trouvant une photo ou une vidéo sur Elix ou ailleurs ou en tournant une vous-meme et en l'envoyant à l'administrateur par mail pour qu'elle soit ajoutée, merci.";
