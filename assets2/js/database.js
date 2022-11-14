@@ -259,21 +259,39 @@ VOCABULARY = {
 "allumette":{url:"https://www.elix-lsf.fr/IMG/mp4/allumette_nf_2_1.mp4"},
 "tir à l'arc":{url:"https://www.elix-lsf.fr/IMG/mp4/tiralarc_nm_1_1.mp4"},
 "aide":{url:"https://www.elix-lsf.fr/IMG/mp4/aide-2.mp4"},
+"ou":{url:"https://www.elix-lsf.fr/IMG/mp4/ou.mp4"},
+"où":{url:"https://www.elix-lsf.fr/IMG/mp4/ou_adv_1_1.mp4"},
+"veuf/veuve":{url:"https://www.elix-lsf.fr/IMG/mp4/veuf_adjetn_1_1.mp4"},
+"unique":{url:"https://www.elix-lsf.fr/IMG/mp4/unique_adj_3_1.mp4"},
+"deux":{url:"https://www.elix-lsf.fr/IMG/mp4/deux_adj_1_1.mp4"},
+"D":{url:"https://www.elix-lsf.fr/IMG/mp4/d_nm_1_1.mp4"},
+"grammaire":{url:"https://www.elix-lsf.fr/IMG/mp4/grammaire_nf_1_1.mp4"},
+"prêt":{url:"https://www.elix-lsf.fr/IMG/mp4/pret_adj_1_6.mp4"},
+"maîtresse":{url:"https://www.elix-lsf.fr/IMG/mp4/maitresse_nf_1_1.mp4"},
+"localisation":{url:"https://www.elix-lsf.fr/IMG/mp4/localisation_nf_1_1.mp4"},
+"aucun":{url:"https://www.elix-lsf.fr/IMG/mp4/aucun_adj_1_1.mp4"},
+"peau":{url:"https://www.elix-lsf.fr/IMG/mp4/peau_nf_1_1.mp4"},
+"soleil":{url:"https://www.elix-lsf.fr/IMG/mp4/soleil-3.mp4"},
+"naissance":{url:"https://www.elix-lsf.fr/IMG/mp4/naissance.mp4"},
+"dernier":{url:"https://www.elix-lsf.fr/IMG/mp4/dernier_adj_1_1.mp4"},
+"corde à sauter": {url:"https://www.youtube.com/embed/bxxzZpheLm8"},
+"brosse à dents": {url:"https://www.youtube.com/embed/sNJSYGL4d00"},
+"boucle d'oreille": {url:"https://www.youtube.com/embed/HwXSp9GjIHE"},
+"entendant": {url:"https://www.youtube.com/embed/vsukhDc0anM"},
 
+"vocabulaire":{url:""},
+"vrai jumeau":{url:""},
+"faux jumeau":{url:""},
 "caribou":{url:""},
 "défiancer": {url:""},
 "pacser": {url:""},
 "neige": {url:""},
 "ex-": {url:""},
 "demi-soeur ": {url:""},
-"faire de la corde à sauter": {url:""},
-"brosse à dents": {url:""},
 "dent": {url:""},
-"boucle d'oreille": {url:""},
 "menton": {url:""},
 "petit": {url:""},
 "cow-boy": {url:""},
-"entendant": {url:""}
 
 // "":{url:""},
 // "":{url:""},
@@ -298,7 +316,6 @@ VOCABULARY = {
 // "tache de rousseur":{url:""},
 // "acné":{url:""},
 // "grain de beauté":{url:""},
-// "vocabulaire":{url:""},
 // "célébrité":{url:""},
 // "star":{url:"https://www.elix-lsf.fr/IMG/mp4/star_nf_1_1.mp4"},
 
@@ -423,7 +440,9 @@ words: [
     "hélicoptère",
     "vomir",
     "allumette",
-    "tir à l'arc"
+    "tir à l'arc",
+    "corde à sauter",
+    "boucle d'oreille"
 ]
 },
 "Seance 3": {
@@ -477,6 +496,7 @@ words: [
     "gros",
     "fesses",
     "seins",
+    "peau",
     "visage",
     "cheveu",
     "cheveux bouclés",
@@ -610,35 +630,53 @@ words: [
     "gagner"
 ]
 },
-    // "Seance ": {
-    //     
-    //     words: [
-    //     ]
-    // },
+"Seance 7": {
+words: [
+    "ou",
+    "veuf/veuve",
+    "unique",
+    "aucun",
+    "maîtresse",
+    "localisation",
+    "deux",
+    "D",
+    "où",
+    "grammaire",
+    "prêt",
+    "soleil",
+    "naissance",
+    "dernier"
+    ]
+},
+// "Seance ": {
+//     words: [
+
+//     ]
+// },
 
 };
 
 CATEGORIES = {
-    "couleurs": {
-        words: ["bleu",
-            "rouge",
-            "vert",
-            "jaune",
-            "gris",
-            "rose",
-            "noir",
-            "blanc",
-            "violet",
-            "marron",
-            "orange",
-            "or (métal)",
-            "argent (métal)",
-            "clair",
-            "foncé",
-            "vif",
-            "transparent"
-        ]
-    }
+"couleurs": {
+words: ["bleu",
+    "rouge",
+    "vert",
+    "jaune",
+    "gris",
+    "rose",
+    "noir",
+    "blanc",
+    "violet",
+    "marron",
+    "orange",
+    "or (métal)",
+    "argent (métal)",
+    "clair",
+    "foncé",
+    "vif",
+    "transparent"
+]
+}
     // "verbe":{]},
 
 };
