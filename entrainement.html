@@ -93,16 +93,31 @@
             return nameElement;
         }
 
-        function makeVideoElement(url, id) {
-            const element = document.createElement('video');
-            element.id = id;
-            element.src = url;
-            element.controls = true;
-            element.muted = true;
+        function makeVideoElement(url, id,autoplay) {
+            let element;
+            if (url.includes("youtu")) {
+                element = document.createElement('embed');
+                element.id = id;
+                newurl = url + "?" + "loop=1" + "&" + "mute=1";
+                if (autoplay){
+                    newurl = newurl + "&" + "autoplay=1"
+                }
+                element.src = newurl;
+            } else {
+                element = document.createElement('video');
+                element.id = id;
+                element.src = url;
+                element.controls = true;
+                element.muted = true;
+                element.loop = true;
+                element.autoplay = autoplay;
+                element.load();
+            }
             return element;
         }
 
         let remainingWordList = Object.keys(VOCABULARY);
+
         function randomWord() {
             let ind = Math.floor(Math.random() * remainingWordList.length);
             let word = remainingWordList.splice(ind, 1);
@@ -134,18 +149,17 @@
                 // element.style.width = "75%";
                 content.appendChild(element);
 
-                const nameElement = makeWordElement(obj.name, "wordName")
+                const nameElement = makeWordElement(obj.name, "wordName");
                 element.appendChild(nameElement);
 
-                const videoElement = makeVideoElement(obj.url, "wordVideo")
-                videoElement.loop = true;
-                videoElement.load();
+                const videoElement = makeVideoElement(obj.url, "wordVideo",false);
                 element.appendChild(videoElement);
             }
 
         }
 
         let remainingSignList = Object.keys(VOCABULARY);
+
         function randomSign() {
             let ind = Math.floor(Math.random() * remainingSignList.length);
             let word = remainingSignList.splice(ind, 1);
@@ -178,14 +192,11 @@
                 // element.style.width = "75%";
                 content.appendChild(element);
 
-                const nameElement = makeWordElement(obj.name, "signName")
+                const nameElement = makeWordElement(obj.name, "signName");
                 element.appendChild(nameElement);
                 nameElement.style.visibility = "hidden";
 
-                const videoElement = makeVideoElement(obj.url, "signVideo")
-                videoElement.autoplay = true;
-                videoElement.loop = true;
-                videoElement.load();
+                const videoElement = makeVideoElement(obj.url, "signVideo", true);
                 element.appendChild(videoElement);
             }
 
@@ -198,7 +209,7 @@
             }
         }
     </script>
-	{% include scripts.html %}
+    {% include scripts.html %}
 
 
 </body>

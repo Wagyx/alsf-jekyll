@@ -33,7 +33,7 @@ function makeVideoElement(url) {
     if (url != "") {
         if (url.includes("youtu")){
             element = document.createElement('embed');
-            newurl = url;
+            newurl = url+"?"+"loop=1"+"&"+"mute=1";
             element.src = newurl;
         }
         else{
