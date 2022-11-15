@@ -558,7 +558,6 @@ words: [
     "prince",
     "caméscope/caméra",
     "cinéma",
-    "mimique",
     "laid",
     "football",
     "ville",
