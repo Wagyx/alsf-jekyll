@@ -264,7 +264,7 @@ VOCABULARY = {
 "veuf/veuve":{url:"https://www.elix-lsf.fr/IMG/mp4/veuf_adjetn_1_1.mp4"},
 "unique":{url:"https://www.elix-lsf.fr/IMG/mp4/unique_adj_3_1.mp4"},
 "deux":{url:"https://www.elix-lsf.fr/IMG/mp4/deux_adj_1_1.mp4"},
-"D":{url:"https://www.elix-lsf.fr/IMG/mp4/d_nm_1_1.mp4"},
+"la lettre D":{url:"https://www.elix-lsf.fr/IMG/mp4/d_nm_1_1.mp4"},
 "grammaire":{url:"https://www.elix-lsf.fr/IMG/mp4/grammaire_nf_1_1.mp4"},
 "prêt":{url:"https://www.elix-lsf.fr/IMG/mp4/pret_adj_1_6.mp4"},
 "maîtresse":{url:"https://www.elix-lsf.fr/IMG/mp4/maitresse_nf_1_1.mp4"},
@@ -278,6 +278,21 @@ VOCABULARY = {
 "brosse à dents": {url:"https://www.youtube.com/embed/sNJSYGL4d00"},
 "boucle d'oreille": {url:"https://www.youtube.com/embed/HwXSp9GjIHE"},
 "entendant": {url:"https://www.youtube.com/embed/vsukhDc0anM"},
+
+"mur":{url:""},
+"plante":{url:""},
+"nuage":{url:"https://www.elix-lsf.fr/IMG/mp4/nuage_nm_1_1.mp4"},
+"phare":{url:""},
+"oiseau":{url:""},
+"voler":{url:""},
+"pyramide":{url:"https://www.elix-lsf.fr/IMG/mp4/pyramide_nf_1_1.mp4"},
+"sphinx":{url:""},
+"pharaon":{url:""},
+"Égypte":{url:"https://www.elix-lsf.fr/IMG/mp4/egypte_nprop_1_1.mp4"},
+"gauche":{url:""},
+"droite":{url:""},
+"momie":{url:"https://www.elix-lsf.fr/IMG/mp4/momie_nf_1_1.mp4"},
+"neige qui tombe":{url:"https://www.elix-lsf.fr/IMG/mp4/neige_nf_1_2.mp4"},
 
 "vocabulaire":{url:""},
 "vrai jumeau":{url:""},
@@ -638,7 +653,7 @@ words: [
     "maîtresse",
     "localisation",
     "deux",
-    "D",
+    "la lettre D",
     "où",
     "grammaire",
     "prêt",
@@ -647,6 +662,24 @@ words: [
     "dernier"
     ]
 },
+"Seance 8": {
+words: [
+    "mur",
+    "plante",
+    "nuage",
+    "phare",
+    "oiseau",
+    "voler",
+    "pyramide",
+    "sphinx",
+    "pharaon",
+    "Égypte",
+    "gauche",
+    "droite",
+    "neige qui tombe"
+]
+},
+
 // "Seance ": {
 //     words: [
 
