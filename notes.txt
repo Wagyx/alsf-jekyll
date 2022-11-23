@@ -2,19 +2,6 @@ command to run server locally
 bundle exec jekyll serve
 
 
-Je viens de faire une revue de ton site.
-J'ai pris tout les mots non disponible et
-je t'ai mis une annotation avec pour que ça t'aide à mettre à jour le site.
-N'hésite pas si tu as besoin. J'ai fait les demandes pour les mots manquant. 
-
-Bonne journée 
-
--------
-
-
-Séance 7 : pourquoi il y a le "D" 🤣
-
-
 Séance 4 : 
 Petit (dispo sur elix) 
 Roux (dispo sur elix) 
@@ -23,39 +10,22 @@ Dent (demande faite)
 Séance 3 : 
 Apprécier (dispo sur elix) 
 
-Séance 2 : 
 
-
-
-
-neveu/niece
-cousin/cousine
-boule/ballon
 Jumeaux 
 Vrais (jumeaux)
 Faux jumeaux (jumeaux)
-Veuf
-Enfant unique
-Il n'y a pas / aucun
 Ainé
-Ou
-Où
 Mignon
-Localisation 2d
 Miroir
-Grammaire
-Perdu
-Gagné
 Pénible
 Marrant
 betise
-Prêt
 
 parler
 
 défiancer
-pacser
-neige
+pacs
+neige (au sol)
 ex
 demi soeur
 dent
