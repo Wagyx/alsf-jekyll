@@ -1,6 +1,10 @@
 command to run server locally
 bundle exec jekyll serve
 
+sable
+métro
+drapeau
+union europèenne
 
 Séance 4 : 
 Petit (dispo sur elix) 
