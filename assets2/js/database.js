@@ -431,6 +431,32 @@ VOCABULARY = {
 "tonne":{url:"https://www.elix-lsf.fr/IMG/mp4/tonne_nf_2_1.mp4"},
 "Paris":{url:"https://www.elix-lsf.fr/IMG/mp4/paris.mp4"},
 
+"poids":{url:"https://www.elix-lsf.fr/IMG/mp4/poids_nm_1_1.mp4"},
+"peser":{url:"https://www.elix-lsf.fr/IMG/mp4/peser_v_1_1.mp4"},
+"histoire (récit)":{url:"https://www.elix-lsf.fr/IMG/mp4/histoire_nf_3_1.mp4"},
+"description":{url:"https://www.elix-lsf.fr/IMG/mp4/description-2.mp4"},
+"action":{url:"https://www.elix-lsf.fr/IMG/mp4/action_nf_1_1.mp4"},
+"toboggan":{url:""},
+"feuille":{url:""},
+"stylo":{url:"https://www.elix-lsf.fr/IMG/mp4/00110-2.mp4"},
+"jusqu'à":{url:"https://www.elix-lsf.fr/IMG/mp4/jusqua_adv_1_1.mp4"},
+"pétillant":{url:"https://www.elix-lsf.fr/IMG/mp4/petillant_adj_1_1.mp4"},
+"lit":{url:"https://www.elix-lsf.fr/IMG/mp4/lit_nm_1_1.mp4"},
+"rond":{url:""},
+"professeur":{url:"https://www.elix-lsf.fr/IMG/mp4/professeur_nm_1_1.mp4"},
+"intéresser":{url:"https://www.elix-lsf.fr/IMG/mp4/interesser_v_1_1.mp4"},
+"gare":{url:"https://www.elix-lsf.fr/IMG/mp4/gare_nf_1_1.mp4"},
+"train":{url:""},
+"pinceau":{url:""},
+"cadeau":{url:"https://www.elix-lsf.fr/IMG/mp4/00110.mp4"},
+"ordinateur":{url:"https://www.elix-lsf.fr/IMG/mp4/ordinateur-2.mp4"},
+"application mobile":{url:"https://www.elix-lsf.fr/IMG/mp4/application_informatique.mp4"},
+"Youtube":{url:""},
+"Facebook":{url:"https://www.elix-lsf.fr/IMG/mp4/fb.mp4"},
+"WhatsApp":{url:""},
+"Twitter":{url:"https://www.elix-lsf.fr/IMG/mp4/00091.mp4"},
+
+
 
 // "": {url:""},
 // "": {url:""},
@@ -939,11 +965,39 @@ words: [
         "Paris",
     ]
 },
-"Seance 11": {
+"Seance 13": {
     words: [
-        
+        "poids",
+        "peser",
+        "histoire (récit)",
+        "description",
+        "action",
+        "toboggan",
+        "feuille",
+        "stylo",
+        "jusqu'à",
+        "pétillant",
+        "lit",
+        "rond",
+        "professeur",
+        "intéresser",
+        "gare",
+        "train",
+        "pinceau",
+        "cadeau",
+        "ordinateur",
+        "application mobile",
+        "Youtube",
+        "Facebook",
+        "WhatsApp",
+        "Twitter",
     ]
 },
+// "Seance 1": {
+//     words: [
+        
+//     ]
+// },
 // "Seance ": {
 //     words: [
 
