@@ -1022,7 +1022,7 @@ words: [
         "envoyer",
     ]
 },
-"Seance 1": {
+"Seance 14": {
     words: [
         "mieux",
         "banane",
