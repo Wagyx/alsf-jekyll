@@ -1,11 +1,15 @@
 command to run server locally
 bundle exec jekyll serve
 
+chips
 
-sable
-métro
-drapeau
-union européenne
+
+cuisine (la pièce)
+salon
+chambre
+cheminée
+chaud
+froid
 
 Séance 4 : 
 Petit (dispo sur elix) 
