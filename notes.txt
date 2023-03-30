@@ -2,14 +2,30 @@ command to run server locally
 bundle exec jekyll serve
 
 chips
+champignon 
+sandwich 
+abeille
+ile
+raisin
+champagne
+carotte
+forêt
+mille-feuille
+Pignon de poulet
+Saucisson
+Ricard
+Pastis 51 
+Ananas 
+cocktail
+sans
+
+
+
 
 
 cuisine (la pièce)
 salon
-chambre
 cheminée
-chaud
-froid
 
 Séance 4 : 
 Petit (dispo sur elix) 
