@@ -1,6 +1,39 @@
 command to run server locally
 bundle exec jekyll serve
 
+
+
+camping-car
+agent
+assurance
+location
+propriétaire
+étage
+rez de chaussée
+parking
+cave
+balançoire
+trampoline
+jaccuzi
+cabanon
+parasol
+maquillage
+robinet
+pique-nique
+ciseaux
+coton
+machine à laver
+sèche linge
+mouchoir
+poubelle
+magasine
+lit superposé
+tablette
+iPad
+pyjama
+volets
+réveil
+
 chips
 champignon 
 sandwich 
