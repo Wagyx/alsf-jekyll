@@ -771,6 +771,16 @@ VOCABULARY = {
 "mille-feuille":{url:""},
 "Ricard":{url:""},
 
+"four":{url:"https://www.elix-lsf.fr/IMG/mp4/four_nm_1_11.mp4"},
+"poêle":{url:"https://www.elix-lsf.fr/IMG/mp4/poele_nf_1_1.mp4"},
+"casserole":{url:"https://www.elix-lsf.fr/IMG/mp4/casserole_nf_1_1.mp4"},
+"fourchette":{url:""},
+"cuillère":{url:""},
+"évier":{url:""},
+"mixeur":{url:""},
+"salle à manger":{url:""},
+"vaisselle":{url:"https://www.elix-lsf.fr/IMG/mp4/vaisselle_nf_1_1.mp4"},
+
 
 
 // "":{url:""},
@@ -1703,6 +1713,28 @@ words: [
         "réveil",
     ]
 },
+"Seance 23": {
+    words: [
+        "cuisine",
+        "four",
+        "poêle",
+        "casserole",
+        "couteau",
+        "fourchette",
+        "cuillère",
+        "lavabo",
+        "machine à laver",
+        "réfrigérateur",
+        "congélateur",
+        "mixeur",
+        "salle à manger",
+        "salon",
+
+
+
+    ]
+},
+
 // "Seance 2": {
 //     words: [
 //     ]
