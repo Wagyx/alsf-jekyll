@@ -765,6 +765,12 @@ VOCABULARY = {
 "aujourd'hui":{url:"https://www.elix-lsf.fr/IMG/mp4/aujourdhui_adv_1_6.mp4"},
 "date":{url:"https://www.elix-lsf.fr/IMG/mp4/date.mp4"},
 
+"saison":{url:"https://www.elix-lsf.fr/IMG/mp4/saison_nf_1_1.mp4"},
+"printemps":{url:"https://www.elix-lsf.fr/IMG/mp4/printemps.mp4"},
+"été":{url:"https://www.elix-lsf.fr/IMG/mp4/ete.mp4"},
+"automne":{url:"https://www.elix-lsf.fr/IMG/mp4/automne_nm_1_2.mp4"},
+"hiver":{url:"https://www.elix-lsf.fr/IMG/mp4/hiver.mp4"},
+"activité":{url:"https://www.elix-lsf.fr/IMG/mp4/activite_n_1_6.mp4"},
 
 "pêcher (à la ligne)":{url:""},
 "mode":{url:""},
@@ -1918,6 +1924,16 @@ words: [
         "demain",
         "hier",
         "date",
+    ]
+},
+"Seance 25": {
+    words: [
+        "saison",
+        "printemps",
+        "été",
+        "automne",
+        "hiver",
+        "activité",
     ]
 },
 // "Seance 2": {
