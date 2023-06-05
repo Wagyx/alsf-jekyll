@@ -1977,6 +1977,14 @@ words: [
         "demi",
     ]
 },
+"Seance 27": {
+    words: [
+    ]
+},
+"Seance 28": {
+    words: [
+    ]
+},
 // "Seance 2": {
 //     words: [
 //     ]
