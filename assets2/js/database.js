@@ -786,6 +786,21 @@ VOCABULARY = {
 "moins le quart":{url:""},
 "demi":{url:"https://www.elix-lsf.fr/IMG/mp4/demi_adj_1_1.mp4"},
 "habiter":{url:"https://www.elix-lsf.fr/IMG/mp4/habiter_v_1_1.mp4"},
+"policière":{url:"https://www.elix-lsf.fr/IMG/mp4/00005.mp4"},
+"pompier":{url:"https://www.elix-lsf.fr/IMG/mp4/pompier_n_10_1_6.mp4"},
+"coiffeuse":{url:"https://www.elix-lsf.fr/IMG/mp4/00305_1.mp4"},
+"cuisinière":{url:"https://www.elix-lsf.fr/IMG/mp4/cuisinier_nm_1_1.mp4"},
+"architecte":{url:"https://www.elix-lsf.fr/IMG/mp4/architecte_nm_1_1.mp4"},
+"maçonne":{url:""},
+"médecin":{url:"https://www.elix-lsf.fr/IMG/mp4/medecindefamille_nm_1_6-2.mp4"},
+"animal":{url:"https://www.elix-lsf.fr/IMG/mp4/00225-2.mp4"},
+"vétérinaire":{url:"https://www.elix-lsf.fr/IMG/mp4/veterinaire_adj_1_1.mp4"},
+"professeure":{url:"https://www.elix-lsf.fr/IMG/mp4/professeure_nf_1_6.mp4"},
+"maitre d'école":{url:"https://www.elix-lsf.fr/IMG/mp4/maitre_nm_4_3.mp4"},
+"boulangère":{url:""},
+"serveuse":{url:"https://www.elix-lsf.fr/IMG/mp4/serveur_nm_1_1.mp4"},
+"avocat":{url:"https://www.elix-lsf.fr/IMG/mp4/avocat_nm_2_1.mp4"},
+"juge":{url:""},
 
 
 "pêcher (à la ligne)":{url:""},
@@ -1983,6 +1998,25 @@ words: [
 },
 "Seance 28": {
     words: [
+    ]
+},
+"Seance 29": {
+    words: [
+        "policière",
+        "pompière",
+        "coiffeuse",
+        "cuisinière",
+        "architecte",
+        "maçonne",
+        "médecin",
+        "animal",
+        "vétérinaire",
+        "professeure",
+        "maitre d'école",
+        "boulangère",
+        "serveuse",
+        "avocat",
+        "juge",
     ]
 },
 // "Seance 2": {
