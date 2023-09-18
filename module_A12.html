@@ -47,35 +47,32 @@
 					<div class="container">
 						<div class="row">
 							<p>
-								L'objectif est de regrouper le vocabulaire appris par séance que ce soit celui
-								en lien avec la leçon correspondante ou d'autres mots que le professeur a introduit
-								suite à une question ou à une précision.
-								Il est possible que j'ai oublié d'inclure certains mots.
-								Dans ce cas, veuillez me le faire savoir et je me ferais une joie de les ajouter.
-								Si vous avez pris des notes pendant les séances vous pouvez également m'envoyer une
-								photo ou un scan.
+
 							</p>
 							<div class="col-8 col-12-medium">
 
 								<!-- Article list -->
 								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A11.html">
-										<h2 class="icon fa-file-alt">Module A1-1</h2>
-									</a>
-								</section>
+									<h2 class="icon fa-file-alt">Module A1-2</h2>
 
-								<!-- Article list -->
-								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A12.html">
-										<h2 class="icon fa-file-alt">Module A1-2</h2>
-									</a>
-								</section>
+									{% for post in site.posts %}
+									{% if post.path contains 'A12' %}
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<!-- <a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a> -->
+										<div>
+											<header>
+												<span class="date">{{post.date | date_to_string}}</span>
+												<h3><a href="{{site.baseurl}}{{post.url}}">{{post.header}}</a>
+												</h3>
+											</header>
+											<p>{{post.phrase}}</p>
 
-								<!-- Article list -->
-								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A13.html">
-										<h2 class="icon fa-file-alt">Module A1-3</h2>
-									</a>
+										</div>
+									</article>
+									{% endif %}
+									{% endfor %}
+									
 								</section>
 							</div>
 

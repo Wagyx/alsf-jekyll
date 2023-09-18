@@ -59,24 +59,28 @@
 
 								<!-- Article list -->
 								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A11.html">
-										<h2 class="icon fa-file-alt">Module A1-1</h2>
-									</a>
+									<h2 class="icon fa-file-alt">Module A1-3</h2>
+
+									{% for post in site.posts %}
+									{% if post.path contains 'A13' %}
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<!-- <a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a> -->
+										<div>
+											<header>
+												<span class="date">{{post.date | date_to_string}}</span>
+												<h3><a href="{{site.baseurl}}{{post.url}}">{{post.header}}</a>
+												</h3>
+											</header>
+											<p>{{post.phrase}}</p>
+
+										</div>
+									</article>
+									{% endif %}
+									{% endfor %}
+									
 								</section>
 
-								<!-- Article list -->
-								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A12.html">
-										<h2 class="icon fa-file-alt">Module A1-2</h2>
-									</a>
-								</section>
-
-								<!-- Article list -->
-								<section class="box article-list">
-									<a href="{{site.baseurl}}/module_A13.html">
-										<h2 class="icon fa-file-alt">Module A1-3</h2>
-									</a>
-								</section>
 							</div>
 
 						</div>

@@ -801,6 +801,15 @@ VOCABULARY = {
 "serveuse":{url:"https://www.elix-lsf.fr/IMG/mp4/serveur_nm_1_1.mp4"},
 "avocat":{url:"https://www.elix-lsf.fr/IMG/mp4/avocat_nm_2_1.mp4"},
 "juge":{url:""},
+"transfert":{url:""},
+"transport":{url:"https://www.elix-lsf.fr/IMG/mp4/transport_nm_1_6.mp4"},
+"jambes":{url:""},
+"espace":{url:"https://www.elix-lsf.fr/IMG/mp4/espace_nm_1_1.mp4"},
+"dactylologie":{url:"https://www.elix-lsf.fr/IMG/mp4/dactylologie_nf_1_6.mp4"},
+"carte":{url:"https://www.elix-lsf.fr/IMG/mp4/carte_nf_3_1.mp4"},
+"tradition":{url:"https://www.elix-lsf.fr/IMG/mp4/tradition_nf_1_1.mp4"},
+"culturel":{url:"https://www.elix-lsf.fr/IMG/mp4/culturel_adj_1_11.mp4"},
+
 
 
 "pêcher (à la ligne)":{url:""},
@@ -2019,7 +2028,24 @@ words: [
         "juge",
     ]
 },
-// "Seance 2": {
+"Seance 30": {
+    words: [
+        "révision",
+        "transfert",
+        "objet",
+        "transport",
+        "jambes",
+        "localisation",
+        "espace",
+        "dactylologie",
+        "carte",
+        "France",
+        "fête",
+        "tradition",
+        "culturel",
+    ]
+},
+// "Seance 3": {
 //     words: [
 //     ]
 // },
