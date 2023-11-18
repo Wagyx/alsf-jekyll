@@ -648,7 +648,6 @@ VOCABULARY = {
 "propriétaire":{url:"https://www.elix-lsf.fr/IMG/mp4/proprietaire_n_1_1.mp4"},
 "étage":{url:"https://www.elix-lsf.fr/IMG/mp4/etage_nm_1_1.mp4"},
 "rez de chaussée":{url:"https://www.elix-lsf.fr/IMG/mp4/rez-de-chaussee_nm_1_1.mp4"},
-"parking":{url:""},
 "cave":{url:""},
 "balançoire":{url:"https://www.elix-lsf.fr/IMG/mp4/balancoire_nf_1_1.mp4"},
 "trampoline":{url:"https://www.elix-lsf.fr/IMG/mp4/trampoline.mp4"},
@@ -809,7 +808,16 @@ VOCABULARY = {
 "carte":{url:"https://www.elix-lsf.fr/IMG/mp4/carte_nf_3_1.mp4"},
 "tradition":{url:"https://www.elix-lsf.fr/IMG/mp4/tradition_nf_1_1.mp4"},
 "culturel":{url:"https://www.elix-lsf.fr/IMG/mp4/culturel_adj_1_11.mp4"},
-
+"éclair":{url:"https://www.elix-lsf.fr/IMG/mp4/eclair_nm_1_1.mp4"},
+"tornade":{url:"https://www.elix-lsf.fr/IMG/mp4/tornade_nf_1_1.mp4"},
+"brouillard":{url:"https://www.elix-lsf.fr/IMG/mp4/brouillard_nm_1_1.mp4"},
+"canicule":{url:"https://www.elix-lsf.fr/IMG/mp4/canicule_nf_1_1.mp4"},
+"grêle":{url:"https://www.elix-lsf.fr/IMG/mp4/grele_nf_2_1.mp4"},
+"vitesse":{url:"https://www.elix-lsf.fr/IMG/mp4/vitesse_nf_1_1.mp4"},
+"New York":{url:"https://www.elix-lsf.fr/IMG/mp4/newyork_nprop_1_1.mp4"},
+"parking":{url:"https://www.elix-lsf.fr/IMG/mp4/parking_nm_1_2_6.mp4"},
+"falaise":{url:"https://www.elix-lsf.fr/IMG/mp4/falaise_nf_1_1.mp4"},
+"rempart":{url:"https://www.elix-lsf.fr/IMG/mp4/rempart_nm_1_1_6.mp4"},
 
 
 "pêcher (à la ligne)":{url:""},
@@ -2055,6 +2063,20 @@ words: [
 
 //     ]
 // },
+"Seance 36": {
+    words: [
+        "éclair",
+        "tornade",
+        "brouillard",
+        "canicule",
+        "grêle",
+        "vitesse",
+        "New York",
+        "parking",
+        "falaise",
+        "rempart",
+    ]
+},
 
 };
 
