@@ -2169,7 +2169,7 @@ words: [
         "Nice",
         "Lyon",
         "Strasbourg",
-        "Clermond-Ferrand",
+        "Clermont-Ferrand",
         "Lille",
         "Bayonne",
         "Rennes",
