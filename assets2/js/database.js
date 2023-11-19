@@ -818,7 +818,21 @@ VOCABULARY = {
 "parking":{url:"https://www.elix-lsf.fr/IMG/mp4/parking_nm_1_2_6.mp4"},
 "falaise":{url:"https://www.elix-lsf.fr/IMG/mp4/falaise_nf_1_1.mp4"},
 "rempart":{url:"https://www.elix-lsf.fr/IMG/mp4/rempart_nm_1_1_6.mp4"},
-
+"Ile de France":{url:"https://www.elix-lsf.fr/IMG/mp4/ile-de-france_nprop_1_2.mp4"},
+"arrondissement":{url:"https://www.elix-lsf.fr/IMG/mp4/arrondissement_nm_1_1.mp4"},
+"région":{url:"https://www.elix-lsf.fr/IMG/mp4/region_nf_1_1.mp4"},
+"département":{url:"https://www.elix-lsf.fr/IMG/mp4/departement_nm_1_1.mp4"},
+"Bordeaux":{url:"https://www.elix-lsf.fr/IMG/mp4/bordeaux_nprop_1_2-2.mp4"},
+"Nantes":{url:"https://www.elix-lsf.fr/IMG/mp4/nantes_nprop_1_2.mp4"},
+"Brest":{url:"https://www.elix-lsf.fr/IMG/mp4/brest_nprop_1_2.mp4"},
+"Marseille":{url:"https://www.elix-lsf.fr/IMG/mp4/marseille_nprop_1_2.mp4"},
+"Montpellier":{url:"https://www.elix-lsf.fr/IMG/mp4/montpellier_nprop_1_2.mp4"},
+"Nice":{url:"https://www.elix-lsf.fr/IMG/mp4/nice_nprop_1_2.mp4"},
+"Lyon":{url:"https://www.elix-lsf.fr/IMG/mp4/lyon_nprop_1_2.mp4"},
+"Strasbourg":{url:"https://www.elix-lsf.fr/IMG/mp4/mulhouse_nprop_1_2-2.mp4"},
+"Clermont-Ferrand":{url:"https://www.elix-lsf.fr/IMG/mp4/clermont-ferrand_nprop_1_3.mp4"},
+"Lille":{url:""},
+"Bayonne":{url:""},
 
 "pêcher (à la ligne)":{url:""},
 "mode":{url:""},
@@ -2053,18 +2067,52 @@ words: [
         "culturel",
     ]
 },
-// "Seance 3": {
-//     words: [
-//     ]
-// },
+"Seance 31": {
+    words: [
 
-// "Seance ": {
-//     words: [
+    ]
+},
+"Seance 32": {
+    words: [
 
-//     ]
-// },
+    ]
+},
+"Seance 33": {
+    words: [
+
+    ]
+},
+"Seance 34": {
+    words: [
+        "Paris",
+        "Bordeaux",
+        "Nantes",
+        "Brest",
+        "Marseille",
+        "Montpellier",
+        "Nice",
+        "Lyon",
+        "Strasbourg",
+        "Clermond-Ferrand",
+        "Lille",
+        "Bayonne",
+    ]
+},
+"Seance 35": {
+    words: [
+        "Ile de France",
+        "Paris",
+        "France",
+        "arrondissement",
+        "région",
+        "département",
+    ]
+},
 "Seance 36": {
     words: [
+        "nuage",
+        "soleil",
+        "pluie",
         "éclair",
         "tornade",
         "brouillard",
@@ -2077,6 +2125,16 @@ words: [
         "rempart",
     ]
 },
+// "Seance 3": {
+//     words: [
+//     ]
+// },
+
+// "Seance ": {
+//     words: [
+
+//     ]
+// },
 
 };
 
