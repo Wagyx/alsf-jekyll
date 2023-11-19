@@ -877,6 +877,7 @@ VOCABULARY = {
 "zoom":{url:""},
 "pouvoir":{url:"https://www.elix-lsf.fr/IMG/mp4/pouvoir_v_1_2.mp4"},
 "impossible":{url:"https://www.elix-lsf.fr/IMG/mp4/impossible_adj_1_2.mp4"},
+"Amérique":{url:"https://www.elix-lsf.fr/IMG/mp4/amerique_nprop_1_2.mp4"},
 
 
 
@@ -2202,6 +2203,7 @@ words: [
         "banlieue",
         "culturel",
         "frontière",
+        "Amérique",
     ]
 },
 "Seance 36": {
