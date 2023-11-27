@@ -1,6 +1,7 @@
 command to run server locally
 bundle exec jekyll serve
 
+
  
 Séance 4 : 
 Petit (dispo sur elix) 
