@@ -972,7 +972,18 @@ VOCABULARY = {
 "etre capable de":{url:"https://www.elix-lsf.fr/IMG/mp4/pouvoir_v_2_2.mp4"},
 "soldat":{url:"https://www.elix-lsf.fr/IMG/mp4/soldat-2.mp4"},
 "gendarme":{url:""},
-
+"moine":{url:""},
+"idée":{url:"https://www.elix-lsf.fr/IMG/mp4/idee_nf_1_1.mp4"},
+"réfléchir":{url:""},
+"alphabet":{url:"https://www.elix-lsf.fr/IMG/mp4/00133-4.mp4"},
+"marque":{url:"https://www.elix-lsf.fr/IMG/mp4/marque_nf_3_6.mp4"},
+"église":{url:""},
+"communiquer":{url:"https://www.elix-lsf.fr/IMG/mp4/communiquer_v_1_6.mp4"},
+"parler":{url:"https://www.elix-lsf.fr/IMG/mp4/parler_v_1_1.mp4"},
+"pendu":{url:"https://www.elix-lsf.fr/IMG/mp4/pendu_nm_1_6.mp4"},
+"quand":{url:"https://www.elix-lsf.fr/IMG/mp4/quand_adv_1_1.mp4"},
+"pourquoi":{url:"https://www.elix-lsf.fr/IMG/mp4/pourquoi_adv_1_6.mp4"},
+"malin":{url:"https://www.elix-lsf.fr/IMG/mp4/malin_adj_1_1.mp4"},
 
 "pêcher (à la ligne)":{url:""},
 "mode":{url:""},
@@ -2483,10 +2494,24 @@ words: [
         "gendarme",
     ]
 },
-// "Seance 3": {
-//     words: [
-//     ]
-// },
+"Seance 41": {
+    words: [
+        "moine",
+        "idée",
+        "réfléchir",
+        "dactylologie",
+        "alphabet",
+        "marque",
+        "église",
+        "communiquer",
+        "parler",
+        "pendu",
+        "quand",
+        "pourquoi",
+        "mot",
+        "malin",
+    ]
+},
 
 // "Seance ": {
 //     words: [
