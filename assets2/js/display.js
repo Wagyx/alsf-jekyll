@@ -9,8 +9,14 @@ function displayCategory(category) {
         if (VOCABULARY.hasOwnProperty(arg)) {
             const nameElement = makeWordElement(VOCABULARY[arg].name);
             element.appendChild(nameElement);
-            const videoElement = makeVideoElement(VOCABULARY[arg].url);
-            element.appendChild(videoElement);
+            const url = VOCABULARY[arg].url;
+            if (url == "" || url.includes("youtu") || url.endsWith("mp4")) {
+                const videoElement = makeVideoElement(url);
+                element.appendChild(videoElement);
+            } else {
+                const imageElement = makeImageElement(url);
+                element.appendChild(imageElement);
+            }
         } else {
             const nameElement = makeWordElement(arg)
             element.appendChild(nameElement);
@@ -47,6 +53,15 @@ function makeVideoElement(url) {
         element = document.createElement('p');
         element.innerText = "Aucune vidéo n'a été trouvé pour ce mot. Vous pouvez contribuer en trouvant une photo ou une vidéo sur Elix ou ailleurs ou en tournant une vous-meme et en l'envoyant à l'administrateur par mail pour qu'elle soit ajoutée, merci.";
     }
+    return element;
+}
+
+function makeImageElement(url) {
+    let element;
+    element = document.createElement('img');
+    element.src = url;
+    element.width = 345.67;
+    element.height = 259.25;
     return element;
 }
 
