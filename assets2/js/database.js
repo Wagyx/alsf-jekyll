@@ -1110,7 +1110,7 @@ VOCABULARY = {
 "gin":{url:""},
 "jet27":{url:""},
 "mojito":{url:""},
-"ketchup":{url:""},
+"ketchup":{url:"https://www.elix-lsf.fr/IMG/mp4/ketchup_nm_1_1.mp4"},
 "mayonnaise":{url:""},
 "noisette":{url:""},
 "pistache":{url:""},
@@ -1203,6 +1203,14 @@ VOCABULARY = {
 "chapiteau":{url:"https://www.elix-lsf.fr/IMG/mp4/chapiteau_nm_1_1.mp4"},
 "clown":{url:"https://www.elix-lsf.fr/IMG/mp4/clown_nm_2_1.mp4"},
 "par (lieu, durée, cause, moyen)":{url:"https://www.elix-lsf.fr/IMG/mp4/par_prp_2_1.mp4"},
+"aveugle":{url:"https://www.elix-lsf.fr/IMG/mp4/aveugle_adj_1_1.mp4"},
+"sang":{url:"https://www.elix-lsf.fr/IMG/mp4/sang_nm_1_1.mp4"},
+"il n'y a plus":{url:"https://i.pinimg.com/originals/ca/2b/6a/ca2b6a14f5a10c2b0de23bc577a3bca7.jpg"},
+"dragon":{url:"https://www.elix-lsf.fr/IMG/mp4/dragon_nm_2_1.mp4"},
+"cauchemar":{url:"https://www.elix-lsf.fr/IMG/mp4/cauchemar_nm_2_1_6.mp4"},
+"(film d')horreur":{url:"https://www.elix-lsf.fr/IMG/mp4/horreur_nf_2_6.mp4"},
+"blesser":{url:"https://www.elix-lsf.fr/IMG/mp4/blesser_v_1_1.mp4"},
+"trouver":{url:"https://www.elix-lsf.fr/IMG/mp4/trouver_v_3_1.mp4"},
 // "":{url:""},
 // "":{url:""},
 // "":{url:""},
@@ -2790,6 +2798,19 @@ words: [
         "chapiteau",
         "clown",
         "par (lieu, durée, cause, moyen)"
+    ]
+},
+"Seance 51": {
+    words: [
+        "aveugle",
+        "sang",
+        "il n'y a plus",
+        "ketchup",
+        "dragon",
+        "cauchemar",
+        "(film d')horreur",
+        "blesser",
+        "trouver"
     ]
 },
 // "Seance ": {
