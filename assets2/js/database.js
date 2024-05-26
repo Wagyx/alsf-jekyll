@@ -1318,6 +1318,26 @@ VOCABULARY = {
 "mammifère":{url:"https://www.elix-lsf.fr/IMG/mp4/mammifere_adj_1_1.mp4"},
 "poison":{url:"https://www.elix-lsf.fr/IMG/mp4/poison_nm_1_1.mp4"},
 
+"Asie":{url:""},
+"combat":{url:""},
+"coq":{url:"https://www.elix-lsf.fr/IMG/mp4/coq_nm_1_1.mp4"},
+"ver de terre":{url:""},
+"moustique":{url:"https://www.elix-lsf.fr/IMG/mp4/moustique_nm_1_1.mp4"},
+"lac":{url:"https://www.elix-lsf.fr/IMG/mp4/lac_nm_1_1.mp4"},
+"lama":{url:"https://www.elix-lsf.fr/IMG/mp4/00402.mp4"},
+"cracher":{url:"https://www.elix-lsf.fr/IMG/mp4/cracher_v_1_1.mp4"},
+"aigle":{url:"https://www.elix-lsf.fr/IMG/mp4/00384.mp4"},
+"cadavre":{url:"https://www.elix-lsf.fr/IMG/mp4/cadavre_nm_1_1.mp4"},
+"crabe":{url:"https://www.elix-lsf.fr/IMG/mp4/crabe_nm_1_1.mp4"},
+"phoque":{url:"https://www.elix-lsf.fr/IMG/mp4/phoque_nm_1_1.mp4"},
+"blessé":{url:"https://www.elix-lsf.fr/IMG/mp4/blesser_v_1_1.mp4"},
+"contempler":{url:""},
+"croisière":{url:""},
+"graine":{url:""},
+"scorpion":{url:"https://www.elix-lsf.fr/IMG/mp4/scorpion_nprop_1_6.mp4"},
+"piranha":{url:"https://www.elix-lsf.fr/IMG/mp4/piranha_nm_1_1_6.mp4"},
+"safari":{url:""},
+"cobra":{url:""},
 
 // "":{url:""},
 // "":{url:""},
@@ -3038,6 +3058,48 @@ words: [
         "poison"
 ]
 },
+"Seance 55": {
+    words: [
+        "Asie",
+        "combat",
+        "coq",
+        "éléphant",
+        "ver de terre",
+        "serpent",
+        "Corse",
+        "moustique",
+        "lac",
+        "lama",
+        "cracher",
+        "rhinocéros",
+        "aigle",
+        "surf",
+        "cadavre",
+        "crabe",
+        "phoque",
+        "blessé",
+    ]
+},
+"Seance 56": {
+    words: [
+        "aquarium",
+        "contempler",
+        "croisière",
+        "jouer",
+        "jouet",
+        "poupée",
+        "graine",
+        "scorpion",
+        "piranha",
+        "safari",
+        "cobra",
+    ]
+},
+// "Seance ": {
+//     words: [
+
+//     ]
+// },
 // "Seance ": {
 //     words: [
 
